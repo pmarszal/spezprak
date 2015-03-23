@@ -16,13 +16,13 @@
 %% Updates, Fixes und Modifikationen von Boris Lemmer, 07.01.2015
 
 %% deutsche Arbeit:
-\documentclass[report,       %% Typ der Arbeit: bachelor oder master
+\documentclass[bachelor,       %% Typ der Arbeit: bachelor oder master
                twoside,        %% zweiseitiges Layout
                BCOR10mm,       %% Bindekorrektur 10 mm
 %               liststotoc,nomtotoc,bibtotoc, %% Aufnahme der div. Verzeichnisse
                                               %% ins Inhaltsverzeichnis
-%               english,ngerman, %% Alternativspr. Englisch, Dokumentspr. Deutsch
-               ngerman,english  %% Alternativspr. Deutsch, Dokumentspr. Englisch
+              english,ngerman, %% Alternativspr. Englisch, Dokumentspr. Deutsch
+%               ngerman,english  %% Alternativspr. Deutsch, Dokumentspr. Englisch
 %               final,          %% Endversion; draft fuer schnelles Kompilieren
                ]{GAUBM}
 
@@ -33,7 +33,7 @@
 \usepackage[latin1]{inputenc}  %% 
 %% in aktuellem Linux & MacOS X wird standardmaessig UTF8 kodiert!
 %\usepackage[utf8]{inputenc}    %% Wenn latin1 nicht geht ...
-
+\usepackage{color}
 \usepackage{amsmath,amssymb} %% zusaetzliche Mathe-Symbole
 
 \usepackage{lmodern} %% type1-taugliche CM-Schrift als Variante zur
@@ -63,6 +63,10 @@
             bookmarksopen=true,     % aufgeklappte Bookmarks
             bookmarksnumbered=true  % Kapitelnummerierung in bookmarks
             ]{hyperref}
+%---------------
+% Selbst definierte Befehle
+%---------------
+\newcommand{\comment}[1]{{\textit{\color{red} #1}}}  
 
 %% Weiter benoetigte Pakete: datenumber
 %% Falls dieses Paket nicht in der Installation vorhanden ist,
@@ -99,8 +103,8 @@
 \ReferenceNumber{II.Physik-UniG{\"o}-BSc-2014/01}
 %%
 %% Beginn und Ende des Anfertigungszeitraumes
-\ThesisBegin{1}{4}{2014}
-\ThesisEnd{15}{7}{2014}
+\ThesisBegin{2}{3}{2015}
+\ThesisEnd{31}{3}{2015}
 %% DO NOT TOUCH THESE LINES!!!!
 \frontmatter
 \maketitle
@@ -151,7 +155,9 @@
 \mainmatter   %% Anfang Hauptteil
 
 \chapter{Einleitung}
+\input{./input/Einleitung}
 \chapter{Grundlagen}
+\input{./input/Theorie}
 \chapter{Experimentelle Vorgehensweise}
 \chapter{Hinweise zum Formulieren und Zitieren}
 \chapter{Ergebnisse}

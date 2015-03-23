@@ -1,44 +1,6 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem{Menz97}
-W.~Menz, J.~Mohr, \emph{Mikrosystemtechnik f\"ur Ingenieure}, chapter 1--9, VCH
-  (1997)
-
-\bibitem{DINEN6232}
-DIN EN 623--2, \emph{Pr\"ufverfahren f\"ur Hochleistungskeramiken: Allgemeine
-  und strukturelle Eigenschaften: Bestimmung von Dichte und Porosit\"at} (1991)
-
-\bibitem{Horn90}
-R.~G. Horn, \emph{Surface Forces and Their Actions in Ceramic Materials},
-  Journal of the American Ceramic Society \textbf{73}, 1117 (1990)
-
-\bibitem{Knuth84}
-D.~E. Knuth, \emph{The \TeX book}, volume~A of \emph{Computers and
-  Typesetting}, Addison-Wesley (1984)
-
-\bibitem{bauer_orr_01}
-U.~Baur, M.~Buice, L.~H. Orr, \emph{Direct measurement of the top quark charge
-  at hadron colliders}, Phys. Rev. D \textbf{64}, 094019 (2001),
-  \eprint{hep-ph/0106341}
-
-\bibitem{abe_prl74_1995}
-F.~Abe, et~al. (CDF), \emph{Observation of Top Quark Production in $p\bar{p}$
-  Collisions with the Collider Detector at Fermilab}, Phys. Rev. Lett.
-  \textbf{74}, 2626 (1995), \eprint{hep-ex/9503002}
-
-\bibitem{pdg2002}
-{The Particle Data Group}, K.~Hagiwara, et~al., \emph{Review of Particle
-  Physics}, Phys. Rev. D \textbf{66}, 010001 (2002)
-
-\bibitem{abachi_prl74_1995}
-S.~Abachi, et~al. (\dzero), \emph{Observation of the Top Quark}, Phys. Rev.
-  Lett. \textbf{74}, 2632 (1995), \eprint{hep-ex/9503003}
-
-\bibitem{pdg2004}
-{The Particle Data Group}, S.~Eidelmann, et~al., \emph{Review of Particle
-  Physics}, Phys. Lett. B \textbf{592}, 1 (2004)
 
 \end{thebibliography}

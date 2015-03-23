@@ -274,23 +274,23 @@
       \noindent
       \begin{tabular}[t]{p{0.24\linewidth}p{0.76\textwidth-4\tabcolsep}}
 % added by A.Quadt, 31.08.2010
-        \bfseries Arbeitsnummer:&        
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \@ReferenceNumber\end{minipage}\\&\\
+%        \bfseries Arbeitsnummer:&        
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \@ReferenceNumber\end{minipage}\\&\\
 %
-        \bfseries Bearbeitungszeit:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+        \bfseries Praktikumszeitraum:~&
+        ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
           \dateselectlanguage{ngerman}\setdatebynumber{\the@countbegin}\datedate\ 
           bis \setdatebynumber{\the@countend}\datedate\end{minipage}\\&\\
-        \if@ExtraSupervisor\bfseries Betreuer/in:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \@ExtraSupervisor\end{minipage}\\&\\\fi
-        \bfseries Erstgutachter/in:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \@FirstReferee\end{minipage}\\&\\
-        \bfseries Zweitgutachter/in:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \@SecondReferee\end{minipage}\\
+%        \if@ExtraSupervisor\bfseries Betreuer/in:&
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \@ExtraSupervisor\end{minipage}\\&\\\fi
+%        \bfseries Erstgutachter/in:&
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \@FirstReferee\end{minipage}\\&\\
+%        \bfseries Zweitgutachter/in:&
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \@SecondReferee\end{minipage}\\
       \end{tabular}
     }
     \fi

@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  23 MAR 2015 15:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  23 MAR 2015 20:23
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **bthesis.tex
 (./bthesis.tex
@@ -19,10 +18,6 @@ lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian,
 welsh, loaded.
 (./GAUBM.cls
 Document Class: GAUBM 2009/03/12 v1.0 GAU Vorlage für Abschlussarbeit Physik
-
-LaTeX Warning: Eine der Optionen bachelor oder master 
-               muss angegeben werden. Nehme bachelor..
-
 (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2012/05/15 v3.11 KOMA-Script document class (book)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -132,22 +127,22 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/ngermanb.ldf
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count94
 \U@D=\dimen105
 )
-\l@naustrian = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 92.
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -163,6 +158,25 @@ Package: inputenc 2008/03/30 v1.1d Input encoding file
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -184,13 +198,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -199,15 +213,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks18
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks19
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
@@ -272,7 +286,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip53
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+\c@NAT@ctr=\count108
 ) (./style.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
@@ -280,16 +294,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count108
+\LTchunksize=\count109
 \LTcapwidth=\dimen115
 \LT@head=\box29
 \LT@firsthead=\box30
 \LT@foot=\box31
 \LT@lastfoot=\box32
-\LT@cols=\count109
-\LT@rows=\count110
-\c@LT@tables=\count111
-\c@LT@chunks=\count112
+\LT@cols=\count110
+\LT@rows=\count111
+\c@LT@tables=\count112
+\c@LT@chunks=\count113
 \LT@p@ftn=\toks22
 )
 Class scrbook Info: longtable captions redefined on input line 5.
@@ -307,7 +321,7 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \caption@hangindent=\dimen121
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count113
+\c@ContinuedFloat=\count114
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -333,18 +347,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count114
-))
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
 )
@@ -651,32 +654,32 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 LaTeX Warning: Unused global option(s):
-    [report,pagesize].
+    [pagesize].
 
 (./bthesis.aux)
 \openout1 = `bthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 72.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 76.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -699,13 +702,7 @@ File: datenumbergerman.ldf
 \c@datedayname=\count146
 \@nom=\count147
 \@den=\count148
-)
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: floatflt package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
 \scratchdimen=\dimen154
@@ -718,7 +715,13 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count153
 \makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks26
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: floatflt package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -735,17 +738,17 @@ e
 ))
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 72.
-Package gensymb Info: Math companion symbols declared on input line 72.
-LaTeX Info: Redefining \degree on input line 72.
-LaTeX Info: Redefining \celsius on input line 72.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 76.
+Package gensymb Info: Math companion symbols declared on input line 76.
+LaTeX Info: Redefining \degree on input line 76.
+LaTeX Info: Redefining \celsius on input line 76.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 72.
-LaTeX Info: Redefining \ohm on input line 72.
-Package gensymb Info: Using \textohm for \ohm on input line 72.
-Package gensymb Info: Using \textmu for \micro on input line 72.
+erthousand on input line 76.
+LaTeX Info: Redefining \ohm on input line 76.
+Package gensymb Info: Using \textohm for \ohm on input line 76.
+Package gensymb Info: Using \textmu for \micro on input line 76.
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 76.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -755,82 +758,92 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (./bthesis.out) (./bthesis.out)
 \@outlinefile=\write3
 \openout3 = `bthesis.out'.
 
 
-<figures/Logo_Uni_Goettingen.pdf, id=40, 270.52469pt x 52.195pt>
+<figures/Logo_Uni_Goettingen.pdf, id=88, 270.52469pt x 52.195pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
-Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 108
+Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 112
 .
 (pdftex.def)             Requested size: 221.21661pt x 42.67912pt.
 
-<figures/Logo_Physik_links.pdf, id=41, 317.02841pt x 97.66487pt>
+<figures/Logo_Physik_links.pdf, id=89, 317.02841pt x 97.66487pt>
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
-Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 108.
+Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 112.
 (pdftex.def)             Requested size: 138.53995pt x 42.67912pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 108.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 112.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 108.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 112.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 108
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 112
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 108
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 112
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 108.
+(Font)              <12> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 108.
+(Font)              <8> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 108.
-LaTeX Font Info:    Try loading font information for U+msa on input line 108.
+(Font)              <6> on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 108.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 108.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 112.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (15.09888pt too wide) in paragraph at lines 108--108
+Overfull \hbox (15.09888pt too wide) in paragraph at lines 112--112
 []|\T1/lmr/bx/n/12 Praktikumszeitraum:| 
+ []
+
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 112--112
+[]|   []| 
+ []
+
+
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 112--112
+[] [][][][] 
  []
 
 [1
@@ -861,90 +874,192 @@ es/Logo_Uni_Goettingen.pdf> <./figures/Logo_Physik_links.pdf>] [2
 
 
 ]
-Chapter 1.
-[1
+Kapitel 1.
+(./input/Einleitung.tex) [1
 
 
 ] [2
 
 
 ]
-Chapter 2.
-[3] [4
+Kapitel 2.
+(./input/Theorie.tex
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 15.
 
 
-]
-Chapter 3.
-[5] [6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
 
 
-]
-Chapter 4.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...d.h. geringerem Abstand zur Ladung) größ
+                                                  er wird, weil weniger Absc...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...einzelnen Quark entstehen dabei eine groß
+                                                  e Anzahl an Hadronen. Im D...
+
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...ie Masse des Kaons nur geringfügig größ
+                                                  er ist als die Masse von d...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...ich wenn die Matrix mindestens eine Größ
+                                                  e von $3\times 3$ hat. Des...
+
+? 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...ringen Energie ($2$~TeV) rühren der Groß
+                                                  teil der Reaktionen von Qu...
+
+? 
+
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+ [6])
 [7] [8
 
 
 ]
-Chapter 5.
+Kapitel 3.
 [9] [10
 
 
 ]
-Chapter 6.
+Kapitel 4.
 [11] [12
 
 
 ]
-Chapter 7.
+Kapitel 5.
 [13] [14
 
 
 ]
-Appendix A.
+Kapitel 6.
 [15] [16
 
 
-] (./bthesis.bbl
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [17
+]
+Kapitel 7.
+[17] [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Anhang A.
+[19] [20
 
-(./bthesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+
+] (./bthesis.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 6.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+ [21
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+ (./bthesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `bthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 27338D9212BAADEA6CE7989F4AA6F70E;458.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+(rerunfilecheck)             Checksum: 1CE9FBE32FD3D6F51AC6C4CD384FFA54;1328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 10872 strings out of 493488
- 163371 string characters out of 3141326
- 267999 words of memory out of 3000000
- 13884 multiletter control sequences out of 15000+200000
- 54958 words of font info for 56 fonts, out of 3000000 for 9000
+ 10946 strings out of 493488
+ 164305 string characters out of 3141326
+ 271153 words of memory out of 3000000
+ 13929 multiletter control sequences out of 15000+200000
+ 90908 words of font info for 89 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 46i,10n,46p,308b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,46p,1443b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/t
-exmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2012/texmf-dist/fon
-ts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/p
-ublic/lm/lmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/l
-mmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/public/lm/lmtt12.pfb>
-Output written on bthesis.pdf (23 pages, 256232 bytes).
+texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+12/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/
+enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/l
+m-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+blic/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr
+12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
+/public/lm/lmsy8.pfb>
+Output written on bthesis.pdf (27 pages, 326240 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
