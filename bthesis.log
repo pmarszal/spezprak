@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  23 MAR 2015 14:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  23 MAR 2015 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -19,6 +19,10 @@ lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian,
 welsh, loaded.
 (./GAUBM.cls
 Document Class: GAUBM 2009/03/12 v1.0 GAU Vorlage für Abschlussarbeit Physik
+
+LaTeX Warning: Eine der Optionen bachelor oder master 
+               muss angegeben werden. Nehme bachelor..
+
 (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2012/05/15 v3.11 KOMA-Script document class (book)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -647,7 +651,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 LaTeX Warning: Unused global option(s):
-    [pagesize].
+    [report,pagesize].
 
 (./bthesis.aux)
 \openout1 = `bthesis.aux'.
@@ -760,71 +764,76 @@ LaTeX Info: Redefining \nameref on input line 72.
 \openout3 = `bthesis.out'.
 
 
-<figures/Logo_Uni_Goettingen.pdf, id=4, 270.52469pt x 52.195pt>
+<figures/Logo_Uni_Goettingen.pdf, id=40, 270.52469pt x 52.195pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
-Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 107
+Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 108
 .
 (pdftex.def)             Requested size: 221.21661pt x 42.67912pt.
 
-<figures/Logo_Physik_links.pdf, id=5, 317.02841pt x 97.66487pt>
+<figures/Logo_Physik_links.pdf, id=41, 317.02841pt x 97.66487pt>
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
-Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 107.
+Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 108.
 (pdftex.def)             Requested size: 138.53995pt x 42.67912pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 107.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 108.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 107.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 108.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 107
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 108
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 107
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 108
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 107.
+(Font)              <12> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 107.
+(Font)              <8> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 107.
-LaTeX Font Info:    Try loading font information for U+msa on input line 107.
+(Font)              <6> on input line 108.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 107.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 107.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 108.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 107.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 108.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+)
+Overfull \hbox (15.09888pt too wide) in paragraph at lines 108--108
+[]|\T1/lmr/bx/n/12 Praktikumszeitraum:| 
+ []
+
+[1
 
 
 
@@ -834,26 +843,21 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 es/Logo_Uni_Goettingen.pdf> <./figures/Logo_Physik_links.pdf>] [2
 
 
-] [3] [4
-
-
 ]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+(./bthesis.toc)
 \tf@toc=\write4
 \openout4 = `bthesis.toc'.
 
-[5
+ [3
+
+
+] [4
+
+
+] [5
 
 
 ] [6
-
-
-] [7
-
-
-] [8
 
 
 ]
@@ -904,43 +908,29 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [17
+))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [17
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [18
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
-
-(./bthesis.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
-
-
-Package rerunfilecheck Warning: File `bthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bthesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  27338D9212BAADEA6CE7989F4AA6F70E;458.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+(./bthesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package rerunfilecheck Info: File `bthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 27338D9212BAADEA6CE7989F4AA6F70E;458.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 10870 strings out of 493488
- 163368 string characters out of 3141326
- 268202 words of memory out of 3000000
- 13878 multiletter control sequences out of 15000+200000
- 57988 words of font info for 57 fonts, out of 3000000 for 9000
+ 10872 strings out of 493488
+ 163371 string characters out of 3141326
+ 267999 words of memory out of 3000000
+ 13884 multiletter control sequences out of 15000+200000
+ 54958 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 46i,10n,46p,308b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,10n,46p,308b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/t
 exmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2012/texmf-dist/fon
@@ -951,10 +941,10 @@ mmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb><
 exlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/
 texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-dist
 /fonts/type1/public/lm/lmtt12.pfb>
-Output written on bthesis.pdf (26 pages, 258030 bytes).
+Output written on bthesis.pdf (23 pages, 256232 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

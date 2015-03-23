@@ -194,7 +194,7 @@
 \def\s@bject{%
   % \if@diplom\if@englishpreamble{Diploma Thesis}\else{Diplomarbeit}\fi%
   % \else%
-  \if@bachelor\if@englishpreamble{Bachelor's Thesis}\else{Bachelorarbeit}\fi%
+  \if@bachelor\if@englishpreamble{Praktikumsprotokoll}\else{Praktikumsprotokoll}\fi%
   \else
   \if@englishpreamble{Master's Thesis}\else{Masterarbeit}\fi%
   \fi}
@@ -240,22 +240,22 @@
     \noindent
     \begin{tabular}[t]{p{0.24\linewidth}p{0.76\textwidth-4\tabcolsep}}
 % added by A.Quadt, 31.08.2010
-      \bfseries Thesis number:&        
-      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-        \@ReferenceNumber\end{minipage}\\&\\
-      \bfseries Thesis period:&
+%      \bfseries Thesis number:&        
+%      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%        \@ReferenceNumber\end{minipage}\\&\\
+      \bfseries Praktikumszeitraum:&
       \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
         \dateselectlanguage{english}\setdatebynumber{\the@countbegin}\datedate\ 
         until \setdatebynumber{\the@countend}\datedate\end{minipage}\\&\\
-        \if@ExtraSupervisor\bfseries Supervisor:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \@ExtraSupervisor\end{minipage}\\&\\\fi
-      \bfseries First referee:&
-      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-        \@FirstReferee\end{minipage}\\&\\
-      \bfseries Second referee:&
-      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-        \@SecondReferee\end{minipage}\\
+%        \if@ExtraSupervisor\bfseries Supervisor:&
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \@ExtraSupervisor\end{minipage}\\&\\\fi
+%      \bfseries First referee:&
+%      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%        \@FirstReferee\end{minipage}\\&\\
+%      \bfseries Second referee:&
+%      \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%        \@SecondReferee\end{minipage}\\
     \end{tabular}
     \else
     {\if@ngermanopt\selectlanguage{ngerman}%

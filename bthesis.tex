@@ -16,7 +16,7 @@
 %% Updates, Fixes und Modifikationen von Boris Lemmer, 07.01.2015
 
 %% deutsche Arbeit:
-\documentclass[bachelor,       %% Typ der Arbeit: bachelor oder master
+\documentclass[report,       %% Typ der Arbeit: bachelor oder master
                twoside,        %% zweiseitiges Layout
                BCOR10mm,       %% Bindekorrektur 10 mm
 %               liststotoc,nomtotoc,bibtotoc, %% Aufnahme der div. Verzeichnisse
@@ -85,7 +85,7 @@
 %% muss diese/r als optionales Argument angegeben werden.
 %% Diese Angaben beziehen sich auf Institut-externe BetreuerInnen und sollten nur in Ausnahmen relevant sein.
 %%\FirstReferee[Dr.\ \ldots]{Prof.\ Dr.\ \dots} % fuer externe Betreung
-\FirstReferee{Prof.\ Dr.\ \dots}                % fuer interne Betreung
+\FirstReferee{Prof.\ Dr.\ Quadt}                % fuer interne Betreung
 %% Optionen mit Stand 01. Januar 2014:
 %% Prof.~Dr.~Ariane Frey
 %% Priv.Doz.~Dr.~J{\"o}rn Gro{\ss}e-Knetter
@@ -104,28 +104,6 @@
 %% DO NOT TOUCH THESE LINES!!!!
 \frontmatter
 \maketitle
-\cleardoublepage
-%% Zusammenfassung. Falls nicht gewuenscht, bitte auskommentieren.
-\begin{otherlanguage}{english} % Boris Lemmer, 07.01.2015
-\begin{abstract}
-  Hier werden auf einer halben Seite die Kernaussagen der Arbeit
-  zusammengefasst.
-%% Optional: Stichwoerter. Wenn nicht gewuenscht, koennen die beiden
-%% folgenden Zeilen geloescht werden
-  \bigskip\par
-  \textbf{Stichw{\"o}rter:} Physik, Bachelorarbeit
-\end{abstract}
-\end{otherlanguage}
-%% So laesst sich in die andere Sprache umschalten (Englisch bzw. Deutsch)
-\begin{otherlanguage}{english} % Boris Lemmer, 07.01.2015
-\begin{abstract}
-  Here the key results of the thesis can be presented in about
-  half a page.
-  \bigskip\par
-  \textbf{Keywords:} Physics, Bachelor thesis
-\end{abstract}
-\end{otherlanguage}
-
 %% Ende des Vorspanns
 \cleardoublepage
 %% Ab hier 1 1/2 facher Zeilenabstand (durch setspace-Paket)
@@ -192,7 +170,7 @@
 
 %% Dieser Befehl MUSS am Ende stehen und erzeugt die Erklaerung ueber die
 %% benutzten Mittel
-\begin{otherlanguage}{ngerman}
-\Declaration
-\end{otherlanguage}
+%\begin{otherlanguage}{ngerman}
+%\Declaration
+%\end{otherlanguage}
 \end{document}
