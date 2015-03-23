@@ -1,0 +1,198 @@
+\NeedsTeXFormat{LaTeX2e}[2005/12/01]
+%%    2009/03/12 v1.0 GAUBM Vorlage fuer Abschlussarbeiten Physik
+%% Template fuer Bachelor- und Masterarbeiten
+%% an der Fakultaet fuer Physik (c) Thomas Pruschke der GA Universitaet
+%% Verbesserungsvorschlaege bitte an pruschke@theorie.physik.uni-goettingen.de
+%%
+%% Benoetigte Pakete: datenumber
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Bitte vor dem Veraendern diese Datei umbenennen! %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% scrbook - Ersatz fuerr LaTeX book Klasse aus dem KOMA Script
+%% Moegliche Optionen: diejenigen der Klasse scrbook ausser titlepage
+%% Updates, Fixes und Modifikationen von Boris Lemmer, 07.01.2015
+
+%% deutsche Arbeit:
+\documentclass[bachelor,       %% Typ der Arbeit: bachelor oder master
+               twoside,        %% zweiseitiges Layout
+               BCOR10mm,       %% Bindekorrektur 10 mm
+%               liststotoc,nomtotoc,bibtotoc, %% Aufnahme der div. Verzeichnisse
+                                              %% ins Inhaltsverzeichnis
+%               english,ngerman, %% Alternativspr. Englisch, Dokumentspr. Deutsch
+               ngerman,english  %% Alternativspr. Deutsch, Dokumentspr. Englisch
+%               final,          %% Endversion; draft fuer schnelles Kompilieren
+               ]{GAUBM}
+
+\usepackage{setspace}  %% Zur Setzung des Zeilenabstandes
+\usepackage{babel}     %% Sprachen-Unterstuetzung
+\usepackage{calc}      %% ermoeglicht Rechnen mit Laengen und Zaehlern
+\usepackage[T1]{fontenc}       %% Unterstutzung von Umlauten etc.
+\usepackage[latin1]{inputenc}  %% 
+%% in aktuellem Linux & MacOS X wird standardmaessig UTF8 kodiert!
+%\usepackage[utf8]{inputenc}    %% Wenn latin1 nicht geht ...
+
+\usepackage{amsmath,amssymb} %% zusaetzliche Mathe-Symbole
+
+\usepackage{lmodern} %% type1-taugliche CM-Schrift als Variante zur
+                     %% "normalen" EC-Schrift
+%% Paket fuer bibtex-Datenbanken
+\usepackage[comma,numbers,sort&compress]{natbib}
+%% modified by A.Quadt, 01.09.2010
+% \bibliographystyle{plainnat}
+\bibliographystyle{bthesis}
+% added by A.Quadt, 01.09.2010
+\input{style}
+
+\newcommand{\tabheadfont}[1]{\textbf{#1}} %% Tabellenkopf in Fett
+\usepackage{booktabs}                      %% Befehle fuer besseres Tabellenlayout
+\usepackage{longtable}                     %% umbrechbare Tabellen
+\usepackage{array}                         %% zusaetzliche Spaltenoptionen
+
+%% umfangreiche Pakete fuer Symbole wie \micro, \ohm, \degree, \celsius etc.
+\usepackage{textcomp,gensymb}
+
+%\usepackage{SIunits} %% Korrektes Setzen von Einheiten
+\usepackage{units}   %% Variante fuer Einheiten
+
+%% Hyperlinks im Dokument; muss als eines der letzten Pakete geladen werden
+\usepackage[pdfstartview=FitH,      % Oeffnen mit fit width
+            breaklinks=true,        % Umbrueche in Links, nur bei pdflatex default
+            bookmarksopen=true,     % aufgeklappte Bookmarks
+            bookmarksnumbered=true  % Kapitelnummerierung in bookmarks
+            ]{hyperref}
+
+%% Weiter benoetigte Pakete: datenumber
+%% Falls dieses Paket nicht in der Installation vorhanden ist,
+%% kann es von der Seite mit diesem Template heruntergeladen werden
+%% und in einem LaTeX bekanntem Verzeichnis installiert werden (notfalls
+%% dem Verzeichnis mit der Arbeit).
+\begin{document}
+%%
+%%                   Ab hier muessen die Anpassungen geschehen
+%%
+%% Hier den eigenen Namen einsetzen
+\ThesisAuthor{Philip}{Marszal}
+%% Hier den Geburtsort einsetzen
+\PlaceOfBirth{Kassel}
+%% Titel Arbeit. Das erste Argument ist der deutsche, das zweite der
+%% englische Titel.
+\ThesisTitle{Spezialisierungspraktikum in der Kern- und Teilchenphysik}{}
+%% Erst- und Zweitgutacher/in
+%% Ist der/die Betreuer/in nicht identisch mit dem/r Erstgutachter/in,
+%% muss diese/r als optionales Argument angegeben werden.
+%% Diese Angaben beziehen sich auf Institut-externe BetreuerInnen und sollten nur in Ausnahmen relevant sein.
+%%\FirstReferee[Dr.\ \ldots]{Prof.\ Dr.\ \dots} % fuer externe Betreung
+\FirstReferee{Prof.\ Dr.\ \dots}                % fuer interne Betreung
+%% Optionen mit Stand 01. Januar 2014:
+%% Prof.~Dr.~Ariane Frey
+%% Priv.Doz.~Dr.~J{\"o}rn Gro{\ss}e-Knetter
+%% Prof.~Dr.~Hans Hofs{\"a}ss
+%% Prof.~Dr.~Arnulf Quadt
+%% Jun.Prof.~ Steffen Schumann
+\Institute{II. Physikalischen Institut}
+\SecondReferee{Prof.\ Dr.\ \dots}
+%% added by A.Quadt, 31.08.2010
+%% Referenz Nummer der Bachelorarbeit im Institut
+\ReferenceNumber{II.Physik-UniG{\"o}-BSc-2014/01}
+%%
+%% Beginn und Ende des Anfertigungszeitraumes
+\ThesisBegin{1}{4}{2014}
+\ThesisEnd{15}{7}{2014}
+%% DO NOT TOUCH THESE LINES!!!!
+\frontmatter
+\maketitle
+\cleardoublepage
+%% Zusammenfassung. Falls nicht gewuenscht, bitte auskommentieren.
+\begin{otherlanguage}{english} % Boris Lemmer, 07.01.2015
+\begin{abstract}
+  Hier werden auf einer halben Seite die Kernaussagen der Arbeit
+  zusammengefasst.
+%% Optional: Stichwoerter. Wenn nicht gewuenscht, koennen die beiden
+%% folgenden Zeilen geloescht werden
+  \bigskip\par
+  \textbf{Stichw{\"o}rter:} Physik, Bachelorarbeit
+\end{abstract}
+\end{otherlanguage}
+%% So laesst sich in die andere Sprache umschalten (Englisch bzw. Deutsch)
+\begin{otherlanguage}{english} % Boris Lemmer, 07.01.2015
+\begin{abstract}
+  Here the key results of the thesis can be presented in about
+  half a page.
+  \bigskip\par
+  \textbf{Keywords:} Physics, Bachelor thesis
+\end{abstract}
+\end{otherlanguage}
+
+%% Ende des Vorspanns
+\cleardoublepage
+%% Ab hier 1 1/2 facher Zeilenabstand (durch setspace-Paket)
+\onehalfspacing
+%% Erzeugt Inhaltsverzeichnis
+\tableofcontents
+
+%% Hier kann man seine Bezeichnungsweisen erklaeren. Falls nicht
+%% benoetigt, bis einschliesslich \end{nomenclature} auskommentieren
+\begin{nomenclature}
+%% Fuer die Berechnung der Spaltenbreiten muss \usepackage{calc}
+%% geladen sein!
+\section*{Lateinische Buchstaben}
+\noindent
+\begin{longtable}[l]{p{0.2\textwidth}p{0.7\textwidth-6\tabcolsep}p{0.1\textwidth}}
+  \tabheadfont{Variable}&\tabheadfont{Bedeutung}&\tabheadfont{Einheit}\\\midrule\endhead
+  $A$ & Querschnittsfl{\"a}che & $\unit{m^2}$\\
+  $c$ & Geschwindigkeit & $\unitfrac{m}{s}$
+\end{longtable}
+\section*{Griechische Buchstaben}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.7\textwidth-6\tabcolsep}p{0.1\textwidth}}
+  \tabheadfont{Variable}&\tabheadfont{Bedeutung}&\tabheadfont{Einheit}\\\midrule\endhead
+  $\alpha$  & Winkel & $\unit{\degree}$; --\\
+  $\varrho$ & Dichte & $\unitfrac{kg}{m^3}$
+\end{longtable}
+\section*{Indizes}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.8\textwidth-4\tabcolsep}}
+  \tabheadfont{Index}&\tabheadfont{Bedeutung}\\\midrule\endhead
+  m & Meridian\\
+  $r$ & Radial
+\end{longtable}
+\section*{Abk{\"u}rzungen}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.8\textwidth-4\tabcolsep}}
+  \tabheadfont{Abk"urzung}&\tabheadfont{Bedeutung}\\\midrule\endhead
+  2D & zweidimensional\\
+  3D & dreidimensional\\
+  max & maximal
+\end{longtable}
+\end{nomenclature}
+%% \listoftables und \listoffigures sollten nur bei genuegender Anzahl Tabellen
+%% verwendet werden
+%\listoffigures
+%\listoftables
+
+\mainmatter   %% Anfang Hauptteil
+
+\chapter{Einleitung}
+\chapter{Grundlagen}
+\chapter{Experimentelle Vorgehensweise}
+\chapter{Hinweise zum Formulieren und Zitieren}
+\chapter{Ergebnisse}
+\chapter{Diskussion}
+\chapter{Zusammenfassung}
+
+\appendix
+\chapter{Anhang}
+
+
+\cleardoublepage
+%% Bibliographie. Das Argument muss der Name der BIBTeX-Datenbank stehen.
+%% Ein Beispiel fuer eine solche Datenbank finden Sie in bthesis_datenbank.bib
+\bibliography{bthesis_datenbank} 
+
+
+%% Dieser Befehl MUSS am Ende stehen und erzeugt die Erklaerung ueber die
+%% benutzten Mittel
+\begin{otherlanguage}{ngerman}
+\Declaration
+\end{otherlanguage}
+\end{document}

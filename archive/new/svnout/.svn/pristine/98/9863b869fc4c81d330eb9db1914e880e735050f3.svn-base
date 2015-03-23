@@ -1,0 +1,138 @@
+%\documentclass[11pt, a4paper, headsepline, footsepline]{scrbook}
+
+%\usepackage[latin1]{inputenc}
+\usepackage{longtable}
+\usepackage[it, bf]{caption}
+%\usepackage[dvips]{graphicx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{epsfig}
+%\usepackage[clearempty]{titlesec}
+\usepackage{booktabs}
+\usepackage{hhline}
+\usepackage{array}
+\usepackage{subfigure}
+\usepackage{floatflt}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{mathrsfs} 
+\usepackage{amssymb}
+
+% added by A.Quadt, 07.09.2010
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{xspace}
+%
+
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{23cm}
+\setlength{\textwidth}{16cm}
+
+\pagestyle{headings}
+
+\renewcommand{\sectfont}{\bfseries\rmfamily}
+\renewcommand{\floatpagefraction}{0.7}
+\renewcommand{\textfraction}{0.1}
+
+% abbreviations added, A.Quadt, 07.09.2010
+%
+\newcommand{\dzero}      {D\O\xspace}
+\newcommand{\cdf}        {CDF\xspace}
+\newcommand{\uubar}      {\mbox{$u\bar{u}$}}
+\newcommand{\ddbar}      {\mbox{$d\bar{d}$}}
+\newcommand{\ccbar}      {\mbox{$c\bar{c}$}}
+\newcommand{\ssbar}      {\mbox{$s\bar{s}$}}
+\newcommand{\ttbar}      {\mbox{$t\bar{t}$}}
+\newcommand{\bbbar}      {\mbox{$b\bar{b}$}}
+\newcommand{\wjets}      {\mbox{$W + 4\; jets$}}
+\newcommand{\pttbar}     {\mbox{$p_{t\bar{t}}$}}
+\newcommand{\pwjets}     {\mbox{$p_{W +4 \; jets}$}}
+\newcommand{\ljets}      {\mbox{$\ell + \; jets$}}
+\newcommand{\ejets}      {\mbox{$e + \; jets$}}
+\newcommand{\mujets}     {\mbox{$\mu + \; jets$}}
+%
+%
+\newcommand{\fermilab}  {{F{\textsc{ ermilab}}}\xspace}
+\newcommand{\tevatron}  {{T{\textsc{ evatron}}}\xspace}
+\newcommand{\opal}      {{O{\textsc{ pal}}}\xspace}
+\newcommand{\cern}      {{C{\textsc{ ern}}}\xspace}
+\newcommand{\fnal}      {{F{\textsc{ nal}}}\xspace}
+\newcommand{\atlas}     {{A{\textsc{ tlas}}}\xspace}
+\newcommand{\lhc}       {{L{\textsc{ hc}}}\xspace}
+\newcommand{\lep}       {{L{\textsc{ ep}}}\xspace}
+\newcommand{\slc}       {{S{\textsc{ lc}}}\xspace}
+\newcommand{\pep}       {{P{\textsc{ ep}}}\xspace}
+\newcommand{\petra}     {{P{\textsc{ etra}}}\xspace}
+\newcommand{\hera}      {{H{\textsc{ era}}}\xspace}
+\newcommand{\lepaleph}  {{A{\textsc{ leph}}}\xspace}
+\newcommand{\delphi}    {{D{\textsc{ elphi}}}\xspace}
+\newcommand{\leplthree} {{L{\textsc{ 3}}}\xspace}
+\newcommand{\lepopal}   {{O{\textsc{ pal}}}\xspace}
+\newcommand{\doris}     {{D{\textsc{ oris}}}\xspace}
+\newcommand{\isr}       {{I{\textsc{ sr}}}\xspace}
+\newcommand{\desy}      {{D{\textsc{ esy}}}\xspace}
+\newcommand{\kek}       {{K{\textsc{ ek}}}\xspace}
+\newcommand{\slac}      {{S{\textsc{ lac}}}\xspace}
+\newcommand{\tristan}   {{T{\textsc{ ristan}}}\xspace}
+\newcommand{\cms}       {{C{\textsc{ ms}}}\xspace}
+\newcommand{\alice}     {{A{\textsc{ lice}}}\xspace}
+\newcommand{\zeus}      {{Z{\textsc{ eus}}}\xspace}
+\newcommand{\hone}      {{H{\textsc{ 1}}}\xspace}
+\newcommand{\minuit}    {{M{\textsc{ inuit}}}\xspace}
+\newcommand{\herwig}    {{H\textsc{erwig}}\xspace}
+\newcommand{\acermc}    {{A\textsc{cerMC}}\xspace}
+\newcommand{\evtgen}    {{E\textsc{vtgen}}\xspace}
+\newcommand{\mcfm}      {{M\textsc{cfm}}\xspace}
+\newcommand{\mcatnlo}   {{M\textsc{c@nlo}}\xspace}
+\newcommand{\sherpa}    {{S\textsc{herpa}}\xspace}
+\newcommand{\jimmy}     {{J\textsc{immy}}\xspace}
+\newcommand{\cteq}      {{C\textsc{teq}}\xspace}
+\newcommand{\pythia}    {{P\textsc{ythia}}\xspace}
+\newcommand{\jetnet}    {{J\textsc{etnet}}\xspace}
+\newcommand{\isajet}    {{I\textsc{sajet}}\xspace}
+\newcommand{\jetset}    {{J\textsc{etset}}\xspace}
+\newcommand{\vecbos}    {{V\textsc{ecbos}}\xspace}
+\newcommand{\alpgen}    {{A\textsc{lpgen}}\xspace}
+\newcommand{\vegas}     {{V\textsc{egas}}\xspace}
+\newcommand{\gnu}       {{G\textsc{nu}}\xspace}
+\newcommand{\onetop}    {{O\textsc{neTop}}\xspace}
+\newcommand{\ztop}      {{Z\textsc{Top}}\xspace}
+\newcommand{\toprex}    {{T\textsc{opRex}}\xspace}
+\newcommand{\singletop} {{S\textsc{ingleTop}}\xspace}
+\newcommand{\madgraph}  {{M\textsc{adgraph}}\xspace}
+\newcommand{\madevent}  {{M\textsc{adevent}}\xspace}
+\newcommand{\comphep}   {{C\textsc{omphep}}\xspace}
+\newcommand{\qq}        {{Q\textsc{q}}\xspace}
+\newcommand{\tauola}    {{T\textsc{auola}}\xspace}
+\newcommand{\geant}     {{G\textsc{eant}}\xspace}
+\newcommand{\GEANT}     {{G\textsc{eant}}\xspace}
+\newcommand{\amegic}    {{A\textsc{megic++}}\xspace}
+
+\newcommand{\met}       {\mbox{$\not\!\!E_T$}\xspace}
+\newcommand{\metcal}    {\mbox{$\not\!\!E_{Tcal}$}\xspace}
+\newcommand{\MET}       {$\not\!\!E_T$}
+\newcommand{\lowmet}    {low-\mbox{$\not\!\!E_T$}-QCD\xspace}
+
+\newcommand{\runi}      {Run~I\xspace}
+\newcommand{\runii}     {Run~II\xspace}
+
+%\newcommand{\dzero}      {D\O}
+%\newcommand{\uubar}      {\mbox{$u\bar{u}$}}
+%\newcommand{\ddbar}      {\mbox{$d\bar{d}$}}
+%\newcommand{\ccbar}      {\mbox{$c\bar{c}$}}
+%\newcommand{\ssbar}      {\mbox{$s\bar{s}$}}
+%\newcommand{\ttbar}      {\mbox{$t\bar{t}$}}
+%\newcommand{\bbbar}      {\mbox{$b\bar{b}$}}
+%\newcommand{\wjets}      {\mbox{$W + 4\; jets$}}
+%\newcommand{\pttbar}     {\mbox{$p_{t\bar{t}}$}}
+%\newcommand{\pwjets}     {\mbox{$p_{W +4 \; jets}$}}
+%\newcommand{\ljets}      {\mbox{$l + \; jets$}}
+%\newcommand{\ejets}      {\mbox{$e + \; jets$}}
+%\newcommand{\mujets}     {\mbox{$\mu + \; jets$}}
+%\newcommand{\herwig}     {{\textsc{ herwig}}
+

@@ -1,0 +1,552 @@
+\NeedsTeXFormat{LaTeX2e}[2005/12/01]
+%%    2009/03/12 v1.0 GAUBM Vorlage für Abschlussarbeiten Physik
+%% Template fuer Bachelor- und Masterarbeiten
+%% an der Fakultaet fuer Physik (c) Thomas Pruschke der GA Universität
+%% Verbesserungsvorschlaege bitte an pruschke@theorie.physik.uni-goettingen.de
+%%
+%% Benoetigte Pakete: datenumber
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Bitte vor dem Veraendern diese Datei umbenennen! %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% scrbook - Ersatz für LaTeX book Klasse aus dem KOMA Script
+%% Moegliche Optionen: diejenigen der Klasse scrbook ausser titlepage
+
+
+%% deutsche Arbeit:
+\documentclass[bachelor,       %% Typ der Arbeit: bachelor oder master
+               twoside,        %% zweiseitiges Layout
+               BCOR10mm,       %% Bindekorrektur 10 mm
+%               liststotoc,nomtotoc,bibtotoc, %% Aufnahme der div. Verzeichnisse
+                                              %% ins Inhaltsverzeichnis
+%               english,ngerman, %% Alternativspr. Englisch, Dokumentspr. Deutsch
+               ngerman,english  %% Alternativspr. Deutsch, Dokumentspr. Englisch
+%               final,          %% Endversion; draft fuer schnelles Kompilieren
+               ]{GAUBM}
+
+\usepackage{setspace}  %% Zur Setzung des Zeilenabstandes
+\usepackage{babel}     %% Sprachen-Unterstuetzung
+\usepackage{calc}      %% ermoeglicht Rechnen mit Laengen und Zaehlern
+\usepackage[T1]{fontenc}       %% Unterstutzung von Umlauten etc.
+\usepackage[latin1]{inputenc}  %% 
+%% in aktuellem Linux & MacOS X wird standardmaessig UTF8 kodiert!
+%\usepackage[utf8]{inputenc}    %% Wenn latin1 nicht geht ...
+
+\usepackage{amsmath,amssymb} %% zusaetzliche Mathe-Symbole
+
+\usepackage{lmodern} %% type1-taugliche CM-Schrift als Variante zur
+                     %% "normalen" EC-Schrift
+%% Paket fuer bibtex-Datenbanken
+\usepackage[comma,numbers,sort&compress]{natbib}
+%% modified by A.Quadt, 01.09.2010
+% \bibliographystyle{plainnat}
+\bibliographystyle{bthesis}
+% added by A.Quadt, 01.09.2010
+\input{style}
+
+\newcommand{\tabheadfont}[1]{\textbf{#1}} %% Tabellenkopf in Fett
+\usepackage{booktabs}                      %% Befehle fuer besseres Tabellenlayout
+\usepackage{longtable}                     %% umbrechbare Tabellen
+\usepackage{array}                         %% zusaetzliche Spaltenoptionen
+
+%% umfangreiche Pakete fuer Symbole wie \micro, \ohm, \degree, \celsius etc.
+\usepackage{textcomp,gensymb}
+
+%\usepackage{SIunits} %% Korrektes Setzen von Einheiten
+\usepackage{units}   %% Variante fuer Einheiten
+
+%% Hyperlinks im Dokument; muss als eines der letzten Pakete geladen werden
+\usepackage[pdfstartview=FitH,      % Oeffnen mit fit width
+            breaklinks=true,        % Umbrueche in Links, nur bei pdflatex default
+            bookmarksopen=true,     % aufgeklappte Bookmarks
+            bookmarksnumbered=true  % Kapitelnummerierung in bookmarks
+            ]{hyperref}
+
+%% Weiter benoetigte Pakete: datenumber
+%% Falls dieses Paket nicht in der Installation vorhanden ist,
+%% kann es von der Seite mit diesem Template heruntergeladen werden
+%% und in einem LaTeX bekanntem Verzeichnis installiert werden (notfalls
+%% dem Verzeichnis mit der Arbeit).
+\begin{document}
+%%
+%%                   Ab hier muessen die Anpassungen geschehen
+%%
+%% Hier den eigenen Namen einsetzen
+\ThesisAuthor{Liliane}{Musterfrau}
+%% Hier den Geburtsort einsetzen
+\PlaceOfBirth{Dortdorf}
+%% Titel Arbeit. Das erste Argument ist der deutsche, das zweite der
+%% englische Titel.
+\ThesisTitle{Hier steht das Thema der Arbeit in deutsch}{Here comes the title of the thesis in english}
+%% Erst- und Zweitgutacher/in
+%% Ist der/die Betreuer/in nicht identisch mit dem/r Erstgutachter/in,
+%% muss diese/r als optionales Argument angegeben werden.
+%% Diese Angaben beziehen sich auf Institut-externe BetreuerInnen und sollten nur in Ausnahmen relevant sein.
+%%\FirstReferee[Dr.\ \ldots]{Prof.\ Dr.\ \dots} % fuer externe Betreung
+\FirstReferee{Prof.\ Dr.\ \dots}                % fuer interne Betreung
+%% Optionen mit Stand 01.Oktober 2010:
+%% Prof.~Dr.~Ariane Frey
+%% Priv.Doz.~Dr.~J{\"o}rn Gro{\ss}e-Knetter
+%% Prof.~Dr.~Johannes Haller
+%% Dr.~Carsten Hensel
+%% Prof.~Dr.~Hans Hofs{\"a}ss
+%% Prof.~Dr.~Arnulf Quadt
+\Institute{II. Physikalischen Institut}
+\SecondReferee{Prof.\ Dr.\ \dots}
+%% added by A.Quadt, 31.08.2010
+%% Referenz Nummer der Bachelorarbeit im Institut
+\ReferenceNumber{II.Physik-UniG{\"o}-BSc-2010/02}
+%%
+%% Beginn und Ende des Anfertigungszeitraumes
+\ThesisBegin{1}{4}{2011}
+\ThesisEnd{15}{7}{2011}
+%% DO NOT TOUCH THESE LINES!!!!
+\frontmatter
+\maketitle
+\cleardoublepage
+%% Zusammenfassung. Falls nicht gewuenscht, bitte auskommentieren.
+\begin{abstract}
+  Hier werden auf einer halben Seite die Kernaussagen der Arbeit
+  zusammengefasst.
+%% Optional: Stichwoerter. Wenn nicht gewuenscht, koennen die beiden
+%% folgenden Zeilen geloescht werden
+  \bigskip\par
+  \textbf{Stichw{\"o}rter:} Physik, Bachelorarbeit
+\end{abstract}
+%% So laesst sich in die andere Sprache umschalten (Englisch bzw. Deutsch)
+\begin{otherlanguage}{english}
+\begin{abstract}
+  Here the key results of the thesis can be presented in about
+  half a page.
+  \bigskip\par
+  \textbf{Keywords:} Physics, Bachelor thesis
+\end{abstract}
+\end{otherlanguage}
+
+%% Ende des Vorspanns
+\cleardoublepage
+%% Ab hier 1 1/2 facher Zeilenabstand (durch setspace-Paket)
+\onehalfspacing
+%% Erzeugt Inhaltsverzeichnis
+\tableofcontents
+
+%% Hier kann man seine Bezeichnungsweisen erklaeren. Falls nicht
+%% benoetigt, bis einschliesslich \end{nomenclature} auskommentieren
+\begin{nomenclature}
+%% Fuer die Berechnung der Spaltenbreiten muss \usepackage{calc}
+%% geladen sein!
+\section*{Lateinische Buchstaben}
+\noindent
+\begin{longtable}[l]{p{0.2\textwidth}p{0.7\textwidth-6\tabcolsep}p{0.1\textwidth}}
+  \tabheadfont{Variable}&\tabheadfont{Bedeutung}&\tabheadfont{Einheit}\\\midrule\endhead
+  $A$ & Querschnittsfl{\"a}che & $\unit{m^2}$\\
+  $c$ & Geschwindigkeit & $\unitfrac{m}{s}$
+\end{longtable}
+\section*{Griechische Buchstaben}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.7\textwidth-6\tabcolsep}p{0.1\textwidth}}
+  \tabheadfont{Variable}&\tabheadfont{Bedeutung}&\tabheadfont{Einheit}\\\midrule\endhead
+  $\alpha$  & Winkel & $\unit{\degree}$; --\\
+  $\varrho$ & Dichte & $\unitfrac{kg}{m^3}$
+\end{longtable}
+\section*{Indizes}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.8\textwidth-4\tabcolsep}}
+  \tabheadfont{Index}&\tabheadfont{Bedeutung}\\\midrule\endhead
+  m & Meridian\\
+  $r$ & Radial
+\end{longtable}
+\section*{Abk{\"u}rzungen}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.8\textwidth-4\tabcolsep}}
+  \tabheadfont{Abk"urzung}&\tabheadfont{Bedeutung}\\\midrule\endhead
+  2D & zweidimensional\\
+  3D & dreidimensional\\
+  max & maximal
+\end{longtable}
+\end{nomenclature}
+%% \listoftables und \listoffigures sollten nur bei genuegender Anzahl Tabellen
+%% verwendet werden
+%\listoffigures
+%\listoftables
+
+\mainmatter   %% Anfang Hauptteil
+
+\chapter{Einleitung}
+Diese Vorlage \verb!GAUBM!
+f{\"u}r Bachelor- bzw.\ Masterarbeiten ist eine {\"U}berarbeitung der
+Vorlage von Simon Dreher f{\"u}r Abschlu{\ss}arbeiten am
+Institut f{\"u}r Mikrosystemtechnologie (IMTEK)
+an der Universit{\"a}t Freiburg. Die eigentliche Datei mit der Klassendefinition
+ist \verb!GAUBN.cls!, die Sie zusammen mit dieser Datei erhalten haben. Weitere
+Dateien sind \verb!datenumber.sty! und die zugeh{\"o}rigen Sprachdefinitionen
+\verb!\datenumber*.ldf!. Im Verzeichnis \verb!figures! finden sich die
+von der Klasse ben{\"o}tigten Logos (Universit{\"a}t und Physik) sowie Beispielbilder
+f{\"u}r die {\"U}bersetzung dieser Beispieldatei (\verb!bthesis.tex!).
+Sie k{\"o}nnen diese Datei als Vorlage f{\"u}r Ihre Arbeit nutzen und entsprechend
+modifizieren. Bitte denken Sie daran, sie vorher unter einem eigenen Namen
+abzuspeichern.
+Um die Datei anzupassen, gehen Sie wie folgt vor:
+
+Bei den Parametern zu \verb!\documentclass[...]{GAUBM}! in der Pr{\"a}ambel
+kann man durch Umschalten
+zwischen \verb!english,ngerman! und \verb!ngerman,english! eine
+deutsche Arbeit (erste Variante) mit Englisch als Alternativsprache bzw.\ eine
+englische Arbeit (zweite Variante) mit deutsch als Alternativsprache
+wählen. Im laufenden Text kann man mit 
+\begin{verbatim}
+\begin{otherlanguage}{english/ngerman}
+...
+\end{otherlanguage}
+\end{verbatim}
+zur alternativen Sprache wechseln.
+
+Nach \verb!\begin{document}! m{\"u}ssen zuerst ein paar Befehle mit
+Information {\"u}ber die Arbeit aufgerufen werden:
+\begin{enumerate}
+\item \verb!\ThesisAuthor{Vorname}{Nachname}!: Die Argumente sind der
+Vorname und Nachname der Autorin bzw.\ des Autors der Arbeit.
+\item \verb!\PlaceOfBirth{Wohnort}!: Der Geburtsort der Autorin bzw.\ des Autors.
+\item \verb!\ThesisTitle{Deutscher Titel}{English title}!: Der deutsche und englische Titel der Arbeit gem{\"a}{\ss} Antrag.
+\item \verb!\Institute{Institut}!: Das Institut, an dem die Arbeit angefertigt wurde.
+\item \verb!\FirstReferee[Betreuer/in]{Erste/r Gutachter/in}!: Voller Titel
+und Name des/r Erstgutachter/in. Ist der Betreuer der Arbeit \emph{nicht}
+identisch mit dem/r Erstgutachter/in, so mu{\ss} der volle Titel und der Name
+des/r Betreuer/in als optionales Argument in eckigen Klammern erscheinen.
+\item \verb!\SecondReferee{Zweite/r Gutachter/in}!: Voller Titel
+und Name des/r Zweitgutachter/in.
+\item \verb!\ThesisBegin{Tag}{Monat}{Jahr}!: Datum des Beginns der Anfertigung
+der Arbeit gem{\"a}{\ss} Antrag.
+\item \verb!\ThesisEnd{Tag}{Monat}{Jahr}!: Datum der Fertigstellung der Arbeit.
+\item Optional kann mit
+\begin{verbatim} 
+\begin{abstract}
+...
+\end{abstract}
+\end{verbatim}
+eine maximal eine halbe Seite lange Zusammenfassung eingef{\"u}gt werden.
+
+Falls man die Zusammenfassung in der alternativen Sprache verfassen m{\"o}chte,
+dann geht das mit der Befehlsfolge
+\begin{verbatim} 
+\begin{otherlanguage}{english/ngerman}
+\begin{abstract}
+...
+\end{abstract}
+\end{otherlanguage}
+\end{verbatim}
+\end{enumerate}
+
+\chapter{Grundlagen}
+In diesem Kapitel werden die theoretischen Grundlagen erl{\"a}utert.
+
+Wichtige Gleichungen, die in der Arbeit h{\"a}ufiger zitiert werden,
+sollten eine Gleichungsnummer erhalten.
+\begin{equation}
+  \label{eq:pythagoras}
+  a^2+b^2=c^2
+\end{equation}
+Zum Beispiel wird in Gleichung~\ref{eq:pythagoras} der Satz des Pythagoras
+angegeben.
+
+Gerade im Bereich der Grundlagen wird viel Literatur zitiert, z.B.\
+\cite{Menz97}. Falls
+mehrere Literaturzitate auf einmal zitiert werden, ist folgendes
+z.B.\ m{\"o}glich \cite{Horn90,DINEN6232,Menz97,Knuth84}.
+
+\section{Unterkapitel Gliederungsebene 2}
+Hier sollte etwas Text stehen.
+\subsection{Unterkapitel Gliederungsebene 3}
+Noch ein paar Beispiele zu Abbildungen und Tabellen:
+
+Abbildung~\ref{fig:bildplatzhalter} verdeutlicht \dots
+
+Wie die Abb.~\ref{fig:bildplatzhalter} und
+Tab.~\ref{tab:tabellenplatzhalter} verdeutlichen \dots
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figures/bild}
+  \caption{Bildbeschreibung}
+  \label{fig:bildplatzhalter}
+\end{figure}
+
+Text\dots
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{llll}
+    \toprule
+    $A$-Wert&$B$-Wert&$C$-Wert&$D$-Wert\\
+    \midrule
+    aaaaaa&bbbbbbb&cccccc&ddddddd\\
+    aaaaaa&bbbbbbb&cccccc&ddddddd\\
+    \bottomrule
+  \end{tabular}
+  \caption{Tabellenbeschreibung}
+  \label{tab:tabellenplatzhalter}
+\end{table}
+
+Text\dots
+
+\chapter{Experimentelle Vorgehensweise}
+Text\dots
+
+\chapter{Hinweise zum Formulieren und Zitieren}
+
+%
+% introduction
+%
+These comments result from reading and refereeing quite a number of
+Bachelor theses and are meant to help mastering the LaTex technology
+and some formalities.
+
+%
+% choice of language
+%
+Choose the language of your document well. Writing it in German has
+the advantage that it is most likely your mother tongue and hence you
+will find it easy to express yourself clearly and present arguments
+precisely. The disadvantage is that most other scientists, for example
+of your ATLAS collaborators, will not be able to read it. Writing it
+in English you will potentially have worldwide readers. On the other
+hand, the quality of your document might not reflect the quality of
+your scientific work and hence you might get lower grades than
+possible. We can and will help, but it is your choice and your
+responsibility.
+
+%
+% British English
+%
+Typically, scientific documents are written in English. In Europe, and
+in particular in the ATLAS collaboration, we use British English (BE),
+not American English (AE). That means, for example:
+\begin{itemize}
+\item colour, not color
+\item behaviour, not behavior
+\item flavour, not flavor
+\item Aluminium, not Aluminum
+\item etc.
+\end{itemize}
+
+Names of chemical elements are typically written as starting with a
+capital letter, i.e. Gold, Argon, Aluminium, etc. Also foreign words
+stay in the original style of spelling, for example German words like
+Bremsstrahlung, Ansatz, Gedankenexperiment etc. start with a capital
+letter.
+
+When refering to leptons in formulae, we typically use the symbol
+$\ell$, which you can obtain in LaTex as $\$${$\backslash$ell}$\$$.
+
+In colloquial English, you can contract the words ``does not'' to
+``doesn't'', in written English you cannot do that.
+
+Usage of indefinite articles ``a'' and ``an'': In general, you use
+``an'' if the subsequent word is pronounced as if it started with a
+vowel (regardless how it is written), otherwise you use ``a''. Examples are:
+\begin{enumerate}
+\item[\bf right:] a pizza, an hour, an FPGA, an 8, a unit, a window
+\item[\bf wrong:] an pizza, a hour, a FPGA, a 8, an unit, an window
+\end{enumerate}
+
+In physics texts, numbers and units occur frequently. Units are
+generally written in Roman fonts, while the numbers or formulae
+automatically come out in italics in the Latex math mode. You can
+enforce the Roman fonts for units by adding ``$\backslash$rm'' in
+front of them. Also, there should always be a little space between the
+number and the unit, which you can enforce by adding "$\backslash$;"
+inbetween. Examples are:
+\begin{enumerate}
+\item[\bf right:] $\tau \approx 5 \times 10^{-25}\;\rm s$ from 
+                  $\$\backslash$tau $\backslash$approx 5 $\backslash$times 10$\hat{\ }$\{-25\}$\backslash$; $\backslash$rm s$\$$
+\item[\bf       ] ${\cal{L}} = 10^{34}\;\rm cm^{-2}s^{-1}$ from 
+                  $\$\{\backslash$cal$\{$L$\}\} = 10\hat{\ }\{34\}{\backslash}$;$\backslash$rm $\rm cm\hat{\ }\{-2\}$s$\hat{\ }\{-1\}$
+\item[\bf wrong:] $\tau \approx 5 \times 10^{-25}s$\; from
+                  $\$\backslash$tau $\backslash$approx 5 $\backslash$times 10$\hat{\ }$\{-25\} s$\$$
+\item[\bf       ] ${\cal{L}} = 10^{34}cm^{-2}s^{-1}$ from
+                  $\$\{\backslash$cal$\{$L$\}\} = 10\hat{\ }\{34\}\rm cm\hat{\ }\{-2\}$s$\hat{\ }\{-1\}$
+\end{enumerate}
+
+Make sure you have chosen the correct language setting in your LaTex
+file as this defines, amongst other aspects, the hyphenation rules.
+
+%
+% apostrophes
+%
+The German language does essentially not know the usage of
+apostrophes. When writing your thesis in German, forget about
+apostrophes and do not use them. If you write it in English, use
+apostrophes correctly. There are two situations where apostrophes can
+be used in English:
+\begin{itemize}
+\item In colloquial English you can contract words, for example ``is
+  not'' becomes ``isn't'', ``does not'' becomes ``doesn't'', and
+  ``Peter is hungry'' becomes ``Peter's hungry''. As mentioned before,
+  this construction does exist in English, but it is not to be used in
+  formal English such as a thesis.
+\item Native German speakers are very familiar with the case
+  ``Genitiv'', for example: ``Das Antwortverhalten des ATLAS
+  Kalorimeters auf Hadronen ...''. The correct English translation is
+  ``The ATLAS calorimeters' response to hadrons ...'', i.e. the
+  apostrophe is appended at the end of the word. You cannot say ``The
+  ATLAS calorimeter's response to hadrons ...''. That would be
+  Gerglish or Denglish and is not accepted as a thesis language.
+\end{itemize}
+
+ 
+%
+% spell checker
+%
+When writing a document, it is really helpful to use a spell check.
+You can spell check in the standard editor Emacs as long as Ispell is
+installed on the computer you are using. Type {\tt which ispell} to
+figure out if it is installed. If not, please contact your local
+system administrator. If it is, to check an open document, enter the
+following command (``M-x'' stands for the simultaneous pressing of the
+keys ``AltG'' and ''x''): {\tt M-x ispell-[option]}
+
+Replace [option] with either {\tt buffer}, {\tt region}, {\tt string},
+or {\tt word}. (To check the entire document in the current buffer,
+use the buffer option.)
+
+Once the spell checker starts, Emacs will highlight each word it does
+not recognize, and prompt you for an action. Emacs will try to find
+correct spellings for the current word in the dictionaries at its
+disposal. If it finds any, it will list them in a separate buffer at
+the top of the screen. Each suggested spelling will be preceded by a
+character in parentheses. To change the word to one of these
+spellings, simply type that character. Other commands are summarized
+below: 
+
+\begin{table}[h]
+\begin{tabular}{lp{12cm}}
+Key         & Action\\ \hline
+r           & Enter a new spelling by hand \\
+Spacebar    & Leave the word unchanged\\
+a           & Accept this spelling for all buffers during the current
+              editing session only\\
+i           & Accept this spelling from now on, adding it to your personal
+              dictionary in your home directory\\
+q           & Quit the spell checker\\
+X (Shift-x) & Halt spell checking at current location so that
+              later it will restart there.\\ \hline
+\end{tabular}
+\end{table}
+
+You man find more information about {\tt Ispell} by typing {\tt man
+  ispell} or by searching on the web.
+
+Another spell checking option is to use the Spell functions. You
+invoke them similarly to the Ispell functions, in that you must enter:
+{\tt M-x spell-[option]}
+
+Replace [option] with either {\tt buffer}, {\tt region}, {\tt string},
+or {\tt word}.  Unlike the Ispell functions, these functions will not
+provide you with a list of suggested spellings; for all words not
+found in Emacs' dictionary, you must type in the correct spelling by
+hand. These functions are not available in some versions of Emacs.
+
+When using {\tt xemacs} instead of {\tt emacs}, you can click on ``Cmds'',
+``Spell-Check'', ``Check Buffer'' to start the spell checker.
+
+%
+% citations
+%
+Writing a Bachelor thesis is probably the first time you need to cite
+other peoples' documents and publications. Here a few hints how to do
+it:
+\begin{itemize}
+\item Do not reference {\it standard} pictures such as aerial views of
+  CERN, ATLAS detector pictures, diagrams of quarks and leptons etc.
+\item Do reference documents without detailed page number specification.
+\item Try as much as possible to cite original papers, for example for
+  the Standard Model, the Higgs mechanism or QCD, rather than random
+  review articles, text books or even other students' theses. {\tt
+    Spires} at http://www.slac.stanford.edu/spires is really helpful
+  for that.
+\item Web pages cannot be used as references. They are not constant in
+  time. The information you want to refer to might no longer be
+  available on that page in the future. As a consequence, only cite
+  time-stable documents, i.e. papers.
+\item Citations belong to the sentence in which you want to make a
+  statement based on some information found elsewhere. Hence, the
+  reference $\left[ \dots \right]$ is part of the sentence, followed
+  by the full
+  stop. Do not write a full stop followed by the reference.\\
+  {\bf Yes:} last words of the sentence \cite{bauer_orr_01}.\\
+  {\bf No:} last words of the sentence. \cite{abe_prl74_1995}
+\item Include a space between the last word before the reference and
+  the square brackets of the reference, i.e. blabla
+  \cite{abachi_prl74_1995,pdg2002} and not
+  blabla\cite{abachi_prl74_1995,pdg2004}.
+\item Use {\tt bibtex} to deal with the references. An example bibtex
+  file is included here. Out of the bibtex file, which can be view as
+  a large database of possible papers and documents to cite, bibtex
+  projects out only the ones that you do actually cite and
+  automatically puts them in the right order. Also bibtex tried to
+  make sure they are listed in the same format, i.e. author are all
+  listed as first name plus surname or all as initial plus surname
+  etc. Of course, this can only work if the required information is
+  included in your bibtex file. In our style, we quote initials plus
+  surnames.
+\item For papers with several authors, typically only the first one is
+  mentioned followed by an {\it et al.}. That is Latin and stands for
+  ``et alii'' or ``et aliae'', depending on the gender people. It
+  means ``and others'' and can be obtained in LaTex via
+  $\backslash$etal  .
+\end{itemize}
+
+When refering to figures, tables, equations, sections, or chapters,
+start the word in capital letters, add a tilde in order to inject a
+space and then add the reference to the object, for example:
+\begin{itemize}
+  \item see Figure~\ref{fig:bildplatzhalter} from ``see
+    Figure$\tilde{\ }\backslash$ref\{fig:bildplatzhalter\}''.
+  \item see Table~\ref{tab:tabellenplatzhalter} from ``see
+    Table$\tilde{\ }\backslash$ref\{tab:tabellenplatzhalter\}''.
+  \item see Chapter ..., see Section ..., see Equation ...
+\end{itemize}
+
+In cases you work on data analysis, please remember that:
+\begin{itemize}
+\item no, the rapidity is {\underline{not}} Lorentz invariant!
+\item PDF uncertainties cannot be estimated be calculating a cross
+  section, for example, with two different PDF parametrisations and
+  taking the difference of the two results. For that purpose, modern
+  parton distributions functions come with error bands, CTEQ6 for
+  example with 20 for positive and 20 for negative deviations.
+\end{itemize}
+
+If you have a look at the style file {\tt style.tex}, you will find a
+number of common and frequently used abbreviations, such as \dzero,
+\cdf, \ttbar, \ljets, \mujets, \tevatron, \cern, \pythia, \herwig, \geant, \met
+etc. Try them out.
+
+
+\chapter{Ergebnisse}
+Text\dots
+\chapter{Diskussion}
+Text\dots
+\section{Unterkapitel}
+Text\dots
+\subsection{Unterkapitel}
+Text\dots
+\chapter{Zusammenfassung}
+Text\dots
+
+\appendix
+\chapter{erster Anhang}
+Text\dots
+\chapter{zweiter Anhang}
+Text\dots
+
+\cleardoublepage
+%% Bibliographie. Das Argument muss der Name der BIBTeX-Datenbank stehen.
+%% Ein Beispiel fuer eine solche Datenbank finden Sie in bthesis_datenbank.bib
+\bibliography{bthesis_datenbank} 
+
+\chapter*{Danksagung}
+Dank\dots
+
+%% Dieser Befehl MUSS am Ende stehen und erzeugt die Erklaerung ueber die
+%% benutzten Mittel
+\Declaration
+\end{document}

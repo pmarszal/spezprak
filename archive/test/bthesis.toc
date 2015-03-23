@@ -1,0 +1,17 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {english}
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Unterkapitel Gliederungsebene 2}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Unterkapitel Gliederungsebene 3}{3}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {3}Experimentelle Vorgehensweise}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Diskussion}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Unterkapitel}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Unterkapitel}{9}{subsection.5.1.1}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{11}{chapter.6}
+\contentsline {chapter}{\numberline {A}erster Anhang}{13}{appendix.A}
+\contentsline {chapter}{\numberline {B}zweiter Anhang}{15}{appendix.B}

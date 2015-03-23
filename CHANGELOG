@@ -1,0 +1,7 @@
+07.01.2015 - Boris Lemmer:
+ - Replaced \bf, \tt, \sc, \rm, \it
+ - Fixed references to the Studien- und Pruefungsordnung
+ - Swtiched language for abstract and declaration to German
+ - Fixed .pdf files to a correct front page.
+ - removed packages from style file that caused conflicts
+ 
