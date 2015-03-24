@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: bthesis.aux
 The style file: bthesis.bst
 Database file #1: bthesis_datenbank.bib
-You've used 2 entries,
+You've used 4 entries,
             2352 wiz_defined-function locations,
-            539 strings with 4525 characters,
-and the built_in function-call counts, 762 in all, are:
-= -- 34
-> -- 26
+            553 strings with 4826 characters,
+and the built_in function-call counts, 1314 in all, are:
+= -- 60
+> -- 37
 < -- 0
-+ -- 10
-- -- 8
-* -- 56
-:= -- 89
++ -- 15
+- -- 11
+* -- 88
+:= -- 145
 add.period$ -- 0
-call.type$ -- 2
+call.type$ -- 4
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 90
-empty$ -- 82
-format.name$ -- 10
-if$ -- 162
+cite$ -- 4
+duplicate$ -- 161
+empty$ -- 156
+format.name$ -- 14
+if$ -- 289
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 23
-newline$ -- 12
-num.names$ -- 2
-pop$ -- 29
+int.to.str$ -- 4
+missing$ -- 40
+newline$ -- 18
+num.names$ -- 4
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 18
+skip$ -- 33
 stack$ -- 0
-substring$ -- 19
-swap$ -- 55
+substring$ -- 29
+swap$ -- 89
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 3
-write$ -- 24
+while$ -- 6
+width$ -- 5
+write$ -- 42

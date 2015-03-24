@@ -3,6 +3,15 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{Higgs:1964pj}
+P.~W. Higgs, \emph{{Broken Symmetries and the Masses of Gauge Bosons}},
+  Phys.Rev.Lett. \textbf{13}, 508 (1964)
+
+\bibitem{halzen2008quark}
+F.~Halzen, A.~Martin, \emph{QUARK \& LEPTONS: AN INTRODUCTORY COURSE IN MODERN
+  PARTICLE PHYSICS}, Wiley India Pvt. Limited (2008),
+  \urlprefix\url{http://books.google.com.pe/books?id=ITQy9G62H0gC}
+
 \bibitem{Passage_through_matter}
 K.~Olive, et~al. (Particle Data Group), \emph{Review of Particle Physics},
   Chin. Phys. \textbf{C38} (2014)
