@@ -1,6 +1,15 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Passage_through_matter}
+K.~Olive, et~al. (Particle Data Group), \emph{Review of Particle Physics},
+  Chin. Phys. \textbf{C38} (2014)
+
+\bibitem{Tang:2013daa}
+S.-W. Tang, P.~Ma, L.-M. Duan, Z.-Y. Sun, C.-G. Lu, et~al., \emph{{A
+  normal-pressure MWPC for beam diagnostics at RIBLL2}}, Chin.Phys.
+  \textbf{C37(6)}, 066002 (2013), \eprint{1305.5007}
 
 \end{thebibliography}

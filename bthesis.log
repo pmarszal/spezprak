@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  24 MAR 2015 11:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  24 MAR 2015 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,7 +1052,7 @@ LaTeX Info: Redefining \nameref on input line 76.
 \openout3 = `bthesis.out'.
 
 
-<figures/Logo_Uni_Goettingen.pdf, id=209, 270.52469pt x 52.195pt>
+<figures/Logo_Uni_Goettingen.pdf, id=213, 270.52469pt x 52.195pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 112
 .
 (pdftex.def)             Requested size: 221.21661pt x 42.67912pt.
 
-<figures/Logo_Physik_links.pdf, id=210, 317.02841pt x 97.66487pt>
+<figures/Logo_Physik_links.pdf, id=214, 317.02841pt x 97.66487pt>
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
@@ -1142,18 +1142,14 @@ es/Logo_Uni_Goettingen.pdf> <./figures/Logo_Physik_links.pdf>] [2
 
 
 ]
-(./bthesis.toc
-Underfull \vbox (badness 2142) has occurred while \output is active []
-
- [3
+(./bthesis.toc [3
 
 
 ])
 \tf@toc=\write4
 \openout4 = `bthesis.toc'.
 
-
-[4] [5
+ [4] [5
 
 
 
@@ -1232,154 +1228,156 @@ l.49 ...xt{stat.}) \pm 0.18 (\text{syst.})$~GeV 
 ) [8]
 Kapitel 3.
 (./input/Detektorphysik.tex
-<./input/bethe.pdf, id=375, 543.02875pt x 325.215pt>
+<./input/bethe.pdf, id=381, 543.02875pt x 325.215pt>
 File: ./input/bethe.pdf Graphic file (type pdf)
  <use ./input/bethe.pdf>
 Package pdftex.def Info: ./input/bethe.pdf used on input line 10.
 (pdftex.def)             Requested size: 380.11752pt x 227.64894pt.
 
-
-Package natbib Warning: Citation `Passage_through_matter' on page 9 undefined o
-n input line 10.
-
-
-Package natbib Warning: Citation `Passage_through_matter' on page 9 undefined o
-n input line 10.
-
-<./input/landau.pdf, id=376, 356.33125pt x 228.855pt>
+<./input/landau.pdf, id=384, 356.33125pt x 228.855pt>
 File: ./input/landau.pdf Graphic file (type pdf)
  <use ./input/landau.pdf>
 Package pdftex.def Info: ./input/landau.pdf used on input line 15.
 (pdftex.def)             Requested size: 356.33037pt x 228.85443pt.
 
+Underfull \vbox (badness 1215) has occurred while \output is active []
 
-Package natbib Warning: Citation `Passage_through_matter' on page 9 undefined o
-n input line 15.
-
-
-Package natbib Warning: Citation `Passage_through_matter' on page 9 undefined o
-n input line 15.
+ [9
 
 
-LaTeX Warning: Reference `fig:teilchen_kaskade' on page 9 undefined on input li
-ne 18.
+]
+[10 <./input/bethe.pdf> <./input/landau.pdf>]
+Package epstopdf Info: Source file: <./input/MWPC.eps>
+(epstopdf)                    date: 2013-05-22 04:08:56
+(epstopdf)                    size: 347994 bytes
+(epstopdf)             Output file: <./input/MWPC-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-24 14:31:45
+(epstopdf)                    size: 262888 bytes
+(epstopdf)             Command: <repstopdf --outfile=./input/MWPC-eps-converted
+-to.pdf ./input/MWPC.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
 
+<./input/MWPC-eps-converted-to.pdf, id=569, 210.7875pt x 174.6525pt>
+File: ./input/MWPC-eps-converted-to.pdf Graphic file (type pdf)
 
-<./input/Schematic_of_a_particle_shower.pdf, id=377, 259.6421pt x 188.83276pt>
-File: ./input/Schematic_of_a_particle_shower.pdf Graphic file (type pdf)
-
-<use ./input/Schematic_of_a_particle_shower.pdf>
-Package pdftex.def Info: ./input/Schematic_of_a_particle_shower.pdf used on inp
-ut line 21.
-(pdftex.def)             Requested size: 259.64146pt x 188.83229pt.
-
-
-Package natbib Warning: Citation `emKaskade' on page 9 undefined on input line 
-21.
-
-
-Package natbib Warning: Citation `emKaskade' on page 9 undefined on input line 
-21.
-
-[9
-
-
-] [10 <./input/bethe.pdf> <./input/landau.pdf>] [11 <./input/Schematic_of_a_par
-ticle_shower.pdf>]) [12]
+<use ./input/MWPC-eps-converted-to.pdf>
+Package pdftex.def Info: ./input/MWPC-eps-converted-to.pdf used on input line 2
+7.
+(pdftex.def)             Requested size: 210.78699pt x 174.65207pt.
+ [11] [12 <./input/MWPC-eps-converted-to.pdf>]) [13] [14]
 Kapitel 4.
-(./input/Werkzeuge.tex) [13
+(./input/Werkzeuge.tex) [15
 
 
-] [14
+] [16
 
 
 ]
 Kapitel 5.
-[15] [16
-
-
-]
-Kapitel 6.
 [17] [18
 
 
 ]
-Kapitel 7.
+Kapitel 6.
 [19] [20
 
 
 ]
-Anhang A.
+Kapitel 7.
 [21] [22
 
 
+]
+Anhang A.
+[23] [24
+
+
 ] (./bthesis.bbl
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 13.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 6.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-[23
+ [25
 
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
- (./bthesis.aux)
+
+(./bthesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
-Package rerunfilecheck Info: File `bthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 74342E9F4533486A768C33827B5BF4B6;3514.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `bthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `bthesis.out':
+(rerunfilecheck)             Before: FEBA3DC8A6A9DB457C7E3E93E9AAE2F9;3623
+(rerunfilecheck)             After:  EA2FF37FC911C5260090C668464A877B;3319.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 11294 strings out of 493488
- 168070 string characters out of 3141326
- 273469 words of memory out of 3000000
- 14221 multiletter control sequences out of 15000+200000
- 95179 words of font info for 90 fonts, out of 3000000 for 9000
+ 11349 strings out of 493488
+ 168921 string characters out of 3141326
+ 274737 words of memory out of 3000000
+ 14266 multiletter control sequences out of 15000+200000
+ 95497 words of font info for 91 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,11n,46p,1443b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-12/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/
-enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/l
-m-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-xti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/lm/lmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi6
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
-lic/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lms
-y10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on bthesis.pdf (29 pages, 867961 bytes).
+ 43i,11n,46p,1683b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012
+/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-
+ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxt
+i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
+lm/lmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi6.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
+c/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy1
+0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on bthesis.pdf (31 pages, 1150291 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
- 605 compressed objects within 7 object streams
- 96 named destinations out of 1000 (max. 500000)
- 434 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

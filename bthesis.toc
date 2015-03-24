@@ -24,30 +24,27 @@
 \contentsline {subsection}{\numberline {3.1.1}Bethe-Bloch}{9}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Elektronen und Photonen}{9}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Gas-Detektoren}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Geiger-Z\IeC {\"a}hler}{11}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Driftkammer}{11}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Time-Projection-Chamber}{11}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Teilchen Identifikation}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Energieverlust}{11}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Time of Flight}{11}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Cherenkov Strahlung}{11}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}\IeC {\"U}bergangsstrahlung}{11}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Cherenkov Detektoren}{11}{section.3.4}
-\contentsline {section}{\numberline {3.5}Halbleiter Detektoren}{12}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Halbleiter}{12}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Strahlungssch\IeC {\"a}den}{12}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Signalerzeugung}{12}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Silizium Detektor}{12}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Kalorimeter}{12}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Elektromagnetische Schauer}{12}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Hadronische Schauer}{12}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Sampling und homogene Kalorimeter}{12}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Energieaufl\IeC {\"o}sung}{12}{subsection.3.6.4}
-\contentsline {chapter}{\numberline {4}Werkzeuge}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Werkzeuge}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}ROOT Data Analysis Framework}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Grid-Computing}{13}{section.4.3}
-\contentsline {chapter}{\numberline {5}Ergebnisse}{15}{chapter.5}
-\contentsline {chapter}{\numberline {6}Diskussion}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{19}{chapter.7}
-\contentsline {chapter}{\numberline {A}Anhang}{21}{appendix.A}
+\contentsline {subsection}{\numberline {3.2.1}Lawinen-Bildung}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Die Multi-Wire-Proportional-Chamber(MWPC)}{11}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Driftkammer}{11}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Time-Projection-Chamber (TPC)}{12}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Teilchen Identifikation}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Cherenkov Detektoren}{13}{section.3.4}
+\contentsline {section}{\numberline {3.5}Halbleiter Detektoren}{13}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Halbleiter}{13}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Strahlungssch\IeC {\"a}den}{13}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Signalerzeugung}{13}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Silizium Detektor}{13}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Kalorimeter}{14}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Elektromagnetische Schauer}{14}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Hadronische Schauer}{14}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Sampling und homogene Kalorimeter}{14}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Energieaufl\IeC {\"o}sung}{14}{subsection.3.6.4}
+\contentsline {chapter}{\numberline {4}Werkzeuge}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Werkzeuge}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}ROOT Data Analysis Framework}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Grid-Computing}{15}{section.4.3}
+\contentsline {chapter}{\numberline {5}Ergebnisse}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}Diskussion}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{21}{chapter.7}
+\contentsline {chapter}{\numberline {A}Anhang}{23}{appendix.A}
