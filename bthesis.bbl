@@ -3,14 +3,37 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{Lemmer:2014zua}
+B.~Lemmer, \emph{{Measurement of Spin Correlations in $t\bar{t}$ Events from
+  $pp$ Collisions at $\sqrt{s}$ = 7 TeV in the Lepton + Jets Final State with
+  the ATLAS Detector}}  (2014), \eprint{1410.1791}
+
+\bibitem{PhysRevLett.74.2626}
+\cdf, \dzero Collaborations, \emph{Observation of Top Quark Production in
+  $\overline{\mathit{p}}\mathit{p}$ Collisions with the Collider Detector at
+  Fermilab}, Phys. Rev. Lett. \textbf{74}, 2626 (1995),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.74.2626}
+
+\bibitem{ATLAS:2014wva}
+\emph{{First combination of Tevatron and LHC measurements of the top-quark
+  mass}}  (2014), \eprint{1403.4427}
+
+\bibitem{2006EPJC...48..835Q}
+A.~{Quadt}, \emph{{Top quark physics at hadron colliders}}, European Physical
+  Journal C \textbf{48}, 835 (2006)
+
 \bibitem{Higgs:1964pj}
 P.~W. Higgs, \emph{{Broken Symmetries and the Masses of Gauge Bosons}},
   Phys.Rev.Lett. \textbf{13}, 508 (1964)
 
 \bibitem{halzen2008quark}
 F.~Halzen, A.~Martin, \emph{QUARK \& LEPTONS: AN INTRODUCTORY COURSE IN MODERN
-  PARTICLE PHYSICS}, Wiley India Pvt. Limited (2008),
-  \urlprefix\url{http://books.google.com.pe/books?id=ITQy9G62H0gC}
+  PARTICLE PHYSICS}, Wiley India Pvt. Limited (2008)
+
+\bibitem{Aad:2012tfa}
+G.~Aad, et~al. (ATLAS), \emph{{Observation of a new particle in the search for
+  the Standard Model Higgs boson with the ATLAS detector at the LHC}},
+  Phys.Lett. \textbf{B716}, 1 (2012), \eprint{1207.7214}
 
 \bibitem{Passage_through_matter}
 K.~Olive, et~al. (Particle Data Group), \emph{Review of Particle Physics},
