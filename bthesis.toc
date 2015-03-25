@@ -6,38 +6,36 @@
 \contentsline {section}{\numberline {2.1}Teilchenbeschleuniger}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Idee}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Der {L{\textsc { hc}}}\xspace }{3}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Der {A{\textsc { tlas}}}\xspace -Detektor}{3}{section.2.2}
-\contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Das Standardmodell}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Quantenchromodynamik}{5}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Allgemeines}{5}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Regge-Theorie}{6}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Die starke Kopplundkonstante $\alpha _s$}{6}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Partonen Verteilungen (PDF)}{6}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Jet-Physik}{7}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Hadronisation}{7}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Transversale Masse}{7}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Top-Quark Physik}{8}{section.3.4}
-\contentsline {section}{\numberline {3.5}Vorhersage des Top-Quarks}{8}{section.3.5}
-\contentsline {section}{\numberline {3.6}Produktion von Top-Quarks}{8}{section.3.6}
-\contentsline {section}{\numberline {3.7}Entdeckung und Eigenschaften}{8}{section.3.7}
-\contentsline {section}{\numberline {3.8}Higgs-Boson Physik}{9}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Der Higgs-Mechanismus}{9}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Entdeckung}{10}{subsection.3.8.2}
-\contentsline {chapter}{\numberline {4}Detektorphysik}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Teilchen in Materie}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Bethe-Bloch}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Elektronen und Photonen}{11}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Gas-Detektoren}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Lawinen-Bildung}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Die Multi-Wire-Proportional-Chamber(MWPC)}{13}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Driftkammer}{13}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Time-Projection-Chamber (TPC)}{14}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Silizium Detektor}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Kalorimeter}{15}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Prinzip}{15}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Hadronische Schauer}{15}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Teilchen Identifikation}{16}{section.4.5}
+\contentsline {chapter}{\numberline {3}Detektorphysik}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Der {A{\textsc { tlas}}}\xspace -Detektor}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Teilchen in Materie}{5}{subsection.3.1.1}
+\contentsline {paragraph}{Bethe-Bloch}{5}{section*.8}
+\contentsline {paragraph}{Elektronen und Photonen}{5}{section*.11}
+\contentsline {section}{\numberline {3.2}Silizium Detektor}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Kalorimeter}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Prinzip}{7}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Hadronische Schauer}{8}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Gas-Detektoren}{8}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Lawinen-Bildung}{8}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Driftkammer}{9}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Teilchen Identifikation}{9}{section.3.5}
+\contentsline {chapter}{\numberline {4}Theoretische Grundlagen}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Das Standardmodell}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Quantenchromodynamik}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Allgemeines}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Regge-Theorie}{12}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Die starke Kopplundkonstante $\alpha _s$}{12}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Partonen Verteilungen (PDF)}{12}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Jet-Physik}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hadronisation}{13}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Transversale Masse}{13}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Top-Quark Physik}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Vorhersage des Top-Quarks}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Produktion von Top-Quarks}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Entdeckung und Eigenschaften}{14}{section.4.7}
+\contentsline {section}{\numberline {4.8}Higgs-Boson Physik}{15}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Der Higgs-Mechanismus}{15}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Entdeckung}{16}{subsection.4.8.2}
 \contentsline {chapter}{\numberline {5}Werkzeuge}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Werkzeuge}{17}{section.5.1}
 \contentsline {section}{\numberline {5.2}ROOT Data Analysis Framework}{17}{section.5.2}
