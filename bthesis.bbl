@@ -1,22 +1,58 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{1748-0221-3-08-S08001}
+L.~Evans, P.~Bryant, \emph{LHC Machine}, Journal of Instrumentation
+  \textbf{3(08)}, S08001 (2008)
+
+\bibitem{Passage_through_matter}
+K.~Olive, et~al. (Particle Data Group), \emph{Review of Particle Physics},
+  Chin. Phys. \textbf{C38} (2014)
+
+\bibitem{atlas_build}
+{{ATLAS Collaboration}}, \emph{The ATLAS Inner Detector commissioning and
+  calibration}, The European Physical Journal C \textbf{70(3)}, 787 (2010)
+
+\bibitem{Aad:2014una}
+{{ATLAS Collaboration}}, \emph{{Monitoring and data quality assessment of the
+  ATLAS liquid argon calorimeter}}, JINST \textbf{9}, P07024 (2014)
+
+\bibitem{Meyer:2013joa}
+{{ATLAS Collaboration}}, \emph{{The ATLAS Tile Calorimeter Calibration and
+  Performance}}, EPJ Web Conf. \textbf{60}, 20051 (2013)
+
+\bibitem{2010EPJC...70..875A}
+{{ATLAS Collaboration}}, \emph{{Commissioning of the ATLAS Muon Spectrometer
+  with cosmic rays}}, European Physical Journal C \textbf{70}, 875 (2010)
+
+\bibitem{halzen2008quark}
+F.~Halzen, A.~Martin, \emph{Quark \& Leptons: an introductory course in modern
+  particle physics}, Wiley India Pvt. Limited (2008)
+
+\bibitem{Artru1983147}
+X.~Artru, \emph{Classical string phenomenology. How strings work}, Physics
+  Reports \textbf{97(2–3)}, 147  (1983)
+
+\bibitem{KOBAYASHI1989199}
+M.~Kobayashi, T.~Maskawa, \emph{CP-Violation in the Renormalizable Theory of
+  Weak Interaction}, in L.~Wolfenstein, editor, \emph{{CP} Violation}, pages
+  199 -- 204, Elsevier, Amsterdam (1989)
+
 \bibitem{Lemmer:2014zua}
 B.~Lemmer, \emph{{Measurement of Spin Correlations in $t\bar{t}$ Events from
   $pp$ Collisions at $\sqrt{s}$ = 7 TeV in the Lepton + Jets Final State with
-  the ATLAS Detector}}  (2014), \eprint{1410.1791}
+  the ATLAS Detector}}, PhD Thesis  (2014)
 
 \bibitem{PhysRevLett.74.2626}
 \cdf, \dzero Collaborations, \emph{Observation of Top Quark Production in
   $\overline{\mathit{p}}\mathit{p}$ Collisions with the Collider Detector at
-  Fermilab}, Phys. Rev. Lett. \textbf{74}, 2626 (1995),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.74.2626}
+  Fermilab}, Phys. Rev. Lett. \textbf{74}, 2626 (1995)
 
 \bibitem{ATLAS:2014wva}
-\emph{{First combination of Tevatron and LHC measurements of the top-quark
-  mass}}  (2014), \eprint{1403.4427}
+{{ATLAS, CDF, CMS, \dzero}}, \emph{{First combination of Tevatron and LHC
+  measurements of the top-quark mass}}, ATLAS Conf  (2014)
 
 \bibitem{2006EPJC...48..835Q}
 A.~{Quadt}, \emph{{Top quark physics at hadron colliders}}, European Physical
@@ -26,22 +62,9 @@ A.~{Quadt}, \emph{{Top quark physics at hadron colliders}}, European Physical
 P.~W. Higgs, \emph{{Broken Symmetries and the Masses of Gauge Bosons}},
   Phys.Rev.Lett. \textbf{13}, 508 (1964)
 
-\bibitem{halzen2008quark}
-F.~Halzen, A.~Martin, \emph{QUARK \& LEPTONS: AN INTRODUCTORY COURSE IN MODERN
-  PARTICLE PHYSICS}, Wiley India Pvt. Limited (2008)
-
 \bibitem{Aad:2012tfa}
 G.~Aad, et~al. (ATLAS), \emph{{Observation of a new particle in the search for
   the Standard Model Higgs boson with the ATLAS detector at the LHC}},
-  Phys.Lett. \textbf{B716}, 1 (2012), \eprint{1207.7214}
-
-\bibitem{Passage_through_matter}
-K.~Olive, et~al. (Particle Data Group), \emph{Review of Particle Physics},
-  Chin. Phys. \textbf{C38} (2014)
-
-\bibitem{Tang:2013daa}
-S.-W. Tang, P.~Ma, L.-M. Duan, Z.-Y. Sun, C.-G. Lu, et~al., \emph{{A
-  normal-pressure MWPC for beam diagnostics at RIBLL2}}, Chin.Phys.
-  \textbf{C37(6)}, 066002 (2013), \eprint{1305.5007}
+  Phys.Lett. \textbf{B716}, 1 (2012)
 
 \end{thebibliography}

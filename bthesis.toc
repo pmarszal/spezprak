@@ -14,33 +14,31 @@
 \contentsline {section}{\numberline {3.2}Silizium Detektor}{7}{section.3.2}
 \contentsline {section}{\numberline {3.3}Kalorimeter}{7}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Prinzip}{7}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Hadronische Schauer}{8}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Gas-Detektoren}{8}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Lawinen-Bildung}{8}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Driftkammer}{9}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Teilchen Identifikation}{9}{section.3.5}
-\contentsline {chapter}{\numberline {4}Theoretische Grundlagen}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Das Standardmodell}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Quantenchromodynamik}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Allgemeines}{11}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Regge-Theorie}{12}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Die starke Kopplundkonstante $\alpha _s$}{12}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Partonen Verteilungen (PDF)}{12}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Jet-Physik}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hadronisation}{13}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Transversale Masse}{13}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Top-Quark Physik}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Vorhersage des Top-Quarks}{14}{section.4.5}
-\contentsline {section}{\numberline {4.6}Produktion von Top-Quarks}{14}{section.4.6}
-\contentsline {section}{\numberline {4.7}Entdeckung und Eigenschaften}{14}{section.4.7}
-\contentsline {section}{\numberline {4.8}Higgs-Boson Physik}{15}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Der Higgs-Mechanismus}{15}{subsection.4.8.1}
-\contentsline {subsection}{\numberline {4.8.2}Entdeckung}{16}{subsection.4.8.2}
-\contentsline {chapter}{\numberline {5}Werkzeuge}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Werkzeuge}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}ROOT Data Analysis Framework}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Grid-Computing}{17}{section.5.3}
-\contentsline {chapter}{\numberline {6}Ergebnisse}{19}{chapter.6}
-\contentsline {chapter}{\numberline {7}Diskussion}{21}{chapter.7}
-\contentsline {chapter}{\numberline {8}Zusammenfassung}{23}{chapter.8}
-\contentsline {chapter}{\numberline {A}Anhang}{25}{appendix.A}
+\contentsline {subsection}{\numberline {3.4.2}Driftkammer}{10}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Teilchen Identifikation}{11}{section.3.5}
+\contentsline {chapter}{\numberline {4}Theoretische Grundlagen}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Das Standardmodell}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Quantenchromodynamik}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Allgemeines}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Die starke Kopplundkonstante $\alpha _s$}{14}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Partonen Verteilungen (PDF)}{14}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Jet-Physik}{14}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hadronisation}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Transversale Masse}{15}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Top-Quark Physik}{15}{section.4.4}
+\contentsline {section}{\numberline {4.5}Vorhersage des Top-Quarks}{15}{section.4.5}
+\contentsline {section}{\numberline {4.6}Produktion von Top-Quarks}{15}{section.4.6}
+\contentsline {section}{\numberline {4.7}Entdeckung und Eigenschaften}{16}{section.4.7}
+\contentsline {section}{\numberline {4.8}Higgs-Boson Physik}{17}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Der Higgs-Mechanismus}{17}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Entdeckung}{17}{subsection.4.8.2}
+\contentsline {chapter}{\numberline {5}Werkzeuge}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Werkzeuge}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}ROOT Data Analysis Framework}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Grid-Computing}{19}{section.5.3}
+\contentsline {chapter}{\numberline {6}Ergebnisse}{21}{chapter.6}
+\contentsline {chapter}{\numberline {7}Diskussion}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Zusammenfassung}{25}{chapter.8}
+\contentsline {chapter}{\numberline {A}Anhang}{27}{appendix.A}

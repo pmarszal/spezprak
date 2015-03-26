@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  25 MAR 2015 15:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.11)  26 MAR 2015 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,7 +1052,7 @@ LaTeX Info: Redefining \nameref on input line 76.
 \openout3 = `bthesis.out'.
 
 
-<figures/Logo_Uni_Goettingen.pdf, id=188, 270.52469pt x 52.195pt>
+<figures/Logo_Uni_Goettingen.pdf, id=164, 270.52469pt x 52.195pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 112
 .
 (pdftex.def)             Requested size: 221.21661pt x 42.67912pt.
 
-<figures/Logo_Physik_links.pdf, id=189, 317.02841pt x 97.66487pt>
+<figures/Logo_Physik_links.pdf, id=165, 317.02841pt x 97.66487pt>
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
@@ -1178,222 +1178,263 @@ Kapitel 2.
 ]
 Kapitel 3.
 (./input/Detektorphysik.tex
-<./input/bethe.pdf, id=328, 543.02875pt x 325.215pt>
+<./input/bethe.pdf, id=299, 543.02875pt x 325.215pt>
 File: ./input/bethe.pdf Graphic file (type pdf)
  <use ./input/bethe.pdf>
 Package pdftex.def Info: ./input/bethe.pdf used on input line 7.
 (pdftex.def)             Requested size: 380.11752pt x 227.64894pt.
 
-<./input/landau.pdf, id=331, 356.33125pt x 228.855pt>
+<./input/landau.pdf, id=302, 356.33125pt x 228.855pt>
 File: ./input/landau.pdf Graphic file (type pdf)
  <use ./input/landau.pdf>
 Package pdftex.def Info: ./input/landau.pdf used on input line 12.
 (pdftex.def)             Requested size: 356.33037pt x 228.85443pt.
 
+
+LaTeX Warning: Reference `fig:inner' on page 5 undefined on input line 18.
+
+<input/innerdetector.jpg, id=307, 810.52812pt x 540.51938pt>
+File: input/innerdetector.jpg Graphic file (type jpg)
+
+<use input/innerdetector.jpg>
+Package pdftex.def Info: input/innerdetector.jpg used on input line 21.
+(pdftex.def)             Requested size: 405.26306pt x 270.25902pt.
+
+Underfull \hbox (badness 1048) in paragraph at lines 21--21
+\T1/lmr/m/n/12 (Pixel-Detektor), Barrel- und Endcap-transition-radiation-tracke
+r (Über-
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 21--21
+\T1/lmr/m/n/12 gangs-strah-lungs-de-tek-to-ren), Barrel- und Endcap-semiconduct
+or-tracker
+ []
+
+
 Underfull \vbox (badness 4479) has occurred while \output is active []
 
  [5]
-[6 <./input/bethe.pdf> <./input/landau.pdf>] [7]
+[6 <./input/bethe.pdf> <./input/landau.pdf>]
+
+LaTeX Warning: Reference `fig:emcalori' on page 7 undefined on input line 30.
+
+[7] <input/LAr_Labeled.pdf, id=502, 974.64125pt x 747.79375pt>
+File: input/LAr_Labeled.pdf Graphic file (type pdf)
+
+<use input/LAr_Labeled.pdf>
+Package pdftex.def Info: input/LAr_Labeled.pdf used on input line 34.
+(pdftex.def)             Requested size: 438.5845pt x 336.50407pt.
+ [8 <./input/innerdetector.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9]) [10]
-Kapitel 4.
-(./input/Theorie.tex [11
+ [9 <./input/LAr_Labeled.pdf>]
+Package epstopdf Info: Source file: <input/Fig1a.eps>
+(epstopdf)                    date: 2010-08-03 00:31:30
+(epstopdf)                    size: 1736412 bytes
+(epstopdf)             Output file: <input/Fig1a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-26 13:17:15
+(epstopdf)                    size: 175469 bytes
+(epstopdf)             Command: <repstopdf --outfile=input/Fig1a-eps-converted-
+to.pdf input/Fig1a.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+<input/Fig1a-eps-converted-to.pdf, id=523, 548.0475pt x 604.2575pt>
+File: input/Fig1a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use input/Fig1a-eps-converted-to.pdf>
+Package pdftex.def Info: input/Fig1a-eps-converted-to.pdf used on input line 58
+.
+(pdftex.def)             Requested size: 219.2151pt x 241.69872pt.
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [10 <./input/Fig1a-eps-converted-to.pdf>]) [11] [12
 
 
 ]
+Kapitel 4.
+(./input/Theorie.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 12.
+(Font)              <14.4> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 12.
+(Font)              <10> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 12.
+(Font)              <7> on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
+(hyperref)                removing `math shift' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 12.
+(hyperref)                removing `\alpha' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
+(hyperref)                removing `subscript' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
+(hyperref)                removing `math shift' on input line 14.
 
-[12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-<input/ttbar_prod_feyn_qq.pdf, id=555, 243.95482pt x 118.7027pt>
+[13] [14] [15]
+<input/ttbar_prod_feyn_qq.pdf, id=577, 243.95482pt x 118.7027pt>
 File: input/ttbar_prod_feyn_qq.pdf Graphic file (type pdf)
 
 <use input/ttbar_prod_feyn_qq.pdf>
-Package pdftex.def Info: input/ttbar_prod_feyn_qq.pdf used on input line 38.
+Package pdftex.def Info: input/ttbar_prod_feyn_qq.pdf used on input line 43.
 (pdftex.def)             Requested size: 182.09485pt x 88.60295pt.
 
 
 pdfTeX warning: pdflatex (file ./input/ttbar_prod_feyn_gg1.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<input/ttbar_prod_feyn_gg1.pdf, id=556, 260.32658pt x 118.7027pt>
+<input/ttbar_prod_feyn_gg1.pdf, id=578, 260.32658pt x 118.7027pt>
 File: input/ttbar_prod_feyn_gg1.pdf Graphic file (type pdf)
 
 <use input/ttbar_prod_feyn_gg1.pdf>
-Package pdftex.def Info: input/ttbar_prod_feyn_gg1.pdf used on input line 42.
+Package pdftex.def Info: input/ttbar_prod_feyn_gg1.pdf used on input line 47.
 (pdftex.def)             Requested size: 182.09485pt x 83.03516pt.
 
 
 pdfTeX warning: pdflatex (file ./input/ttbar_prod_feyn_gg2.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<input/ttbar_prod_feyn_gg2.pdf, id=557, 255.41624pt x 118.7027pt>
+<input/ttbar_prod_feyn_gg2.pdf, id=579, 255.41624pt x 118.7027pt>
 File: input/ttbar_prod_feyn_gg2.pdf Graphic file (type pdf)
 
 <use input/ttbar_prod_feyn_gg2.pdf>
-Package pdftex.def Info: input/ttbar_prod_feyn_gg2.pdf used on input line 46.
+Package pdftex.def Info: input/ttbar_prod_feyn_gg2.pdf used on input line 51.
 (pdftex.def)             Requested size: 182.09485pt x 84.62906pt.
 
 
 pdfTeX warning: pdflatex (file ./input/ttbar_prod_feyn_gg3.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<input/ttbar_prod_feyn_gg3.pdf, id=558, 247.22864pt x 118.7027pt>
+<input/ttbar_prod_feyn_gg3.pdf, id=580, 247.22864pt x 118.7027pt>
 File: input/ttbar_prod_feyn_gg3.pdf Graphic file (type pdf)
 
 <use input/ttbar_prod_feyn_gg3.pdf>
-Package pdftex.def Info: input/ttbar_prod_feyn_gg3.pdf used on input line 50.
+Package pdftex.def Info: input/ttbar_prod_feyn_gg3.pdf used on input line 55.
 (pdftex.def)             Requested size: 182.09485pt x 87.43288pt.
- [14] [15 <./input/ttbar_prod_feyn_qq.pdf> <./input/ttbar_prod_feyn_gg1.pdf> <.
-/input/ttbar_prod_feyn_gg2.pdf> <./input/ttbar_prod_feyn_gg3.pdf>]) [16]
+
+Overfull \hbox (2.86638pt too wide) in paragraph at lines 67--69
+\T1/lmr/m/n/12 Higgs \T1/lmr/m/it/12 et al. \T1/lmr/m/n/12 zu-sam-men mit dem H
+iggs-Mechanismus postuliert[[]]. Der Higgs-Mechanismus
+ []
+
+[16 <./input/ttbar_prod_feyn_qq.pdf> <./input/ttbar_prod_feyn_gg1.pdf> <./input
+/ttbar_prod_feyn_gg2.pdf> <./input/ttbar_prod_feyn_gg3.pdf>]
+Package epstopdf Info: Source file: <input/mggweighted_panel_nonorm.eps>
+(epstopdf)                    date: 2012-08-31 17:47:51
+(epstopdf)                    size: 47696 bytes
+(epstopdf)             Output file: <input/mggweighted_panel_nonorm-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-03-26 13:01:56
+(epstopdf)                    size: 23174 bytes
+(epstopdf)             Command: <repstopdf --outfile=input/mggweighted_panel_no
+norm-eps-converted-to.pdf input/mggweighted_panel_nonorm.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<input/mggweighted_panel_nonorm-eps-converted-to.pdf, id=659, 520.94624pt x 739
+.76375pt>
+File: input/mggweighted_panel_nonorm-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use input/mggweighted_panel_nonorm-eps-converted-to.pdf>
+Package pdftex.def Info: input/mggweighted_panel_nonorm-eps-converted-to.pdf us
+ed on input line 73.
+(pdftex.def)             Requested size: 260.47249pt x 369.88097pt.
+) [17]
+[18 <./input/mggweighted_panel_nonorm-eps-converted-to.pdf>]
 Kapitel 5.
-(./input/Werkzeuge.tex) [17
+(./input/Werkzeuge.tex) [19
 
 
-] [18
+] [20
 
 
 ]
 Kapitel 6.
-[19] [20
-
-
-]
-Kapitel 7.
 [21] [22
 
 
 ]
-Kapitel 8.
+Kapitel 7.
 [23] [24
 
 
 ]
-Anhang A.
+Kapitel 8.
 [25] [26
 
 
-] (./bthesis.bbl
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 9.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
- [27
-
-
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Anhang A.
+[27] [28
 
-(./bthesis.aux)
+
+] (./bthesis.bbl [29
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+ (./bthesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package rerunfilecheck Info: File `bthesis.out' has not changed.
+(rerunfilecheck)             Checksum: FBE95ACB16A4767A0E55F2B68F108C6F;2597.
 
-
-Package rerunfilecheck Warning: File `bthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bthesis.out':
-(rerunfilecheck)             Before: 946034BB1286AA58BD3D6E795C5EB057;3082
-(rerunfilecheck)             After:  AFA69F1D83687C9483C77D205AAD86A9;2747.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 11422 strings out of 493488
- 170510 string characters out of 3141326
- 275690 words of memory out of 3000000
- 14317 multiletter control sequences out of 15000+200000
- 111147 words of font info for 95 fonts, out of 3000000 for 9000
+ 11418 strings out of 493488
+ 170886 string characters out of 3141326
+ 276591 words of memory out of 3000000
+ 14309 multiletter control sequences out of 15000+200000
+ 110829 words of font info for 94 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,10n,46p,1683b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
-xlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2012/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbxti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
-10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
-e1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
-m/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt12
-.pfb>
-Output written on bthesis.pdf (33 pages, 1087516 bytes).
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2012/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/
+fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/
+dvips/lm/lm-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbxti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+bx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
+/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/lm/lmsy8.pfb>
+Output written on bthesis.pdf (36 pages, 1481411 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 663 compressed objects within 7 object streams
- 114 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 831 PDF objects out of 1000 (max. 8388607)
+ 678 compressed objects within 7 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
