@@ -286,7 +286,7 @@
         ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
           B.Phy.408:\\Spezialisierungspraktikum Kern- und Teilchenphysik
           \end{minipage}\\&\\
-          \bfseries Ort, Datum :~&
+          \bfseries Ort, Datum:~&
         ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
            G\"ottingen, 29.03.2015
           \end{minipage}\\&\\
