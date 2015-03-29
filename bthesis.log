@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.27)  29 MAR 2015 14:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.27)  29 MAR 2015 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,6 +1147,16 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 112--112
  []
 
 
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 112--112
+[]|   []| 
+ []
+
+
+Overfull \hbox (7.8332pt too wide) in paragraph at lines 112--112
+[]|   []| 
+ []
+
+
 Overfull \hbox (2.61105pt too wide) in paragraph at lines 112--112
 [] [][][][] 
  []
@@ -1179,10 +1189,6 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 ] (./bthesis.toc
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 5.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1191,7 +1197,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
-[3
+ [3
 
 
 ])
@@ -1729,17 +1735,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./bthesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
-
-
-Package rerunfilecheck Warning: File `bthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bthesis.out':
-(rerunfilecheck)             Before: 1F9D6652CB1B4683E112D2966C90534C;2190
-(rerunfilecheck)             After:  8E617AF42FDCA0FEEDD6248F11F8038A;2208.
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Package rerunfilecheck Info: File `bthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 8E617AF42FDCA0FEEDD6248F11F8038A;2208.
 
 
 LaTeX Warning: There were undefined references.
@@ -1747,10 +1744,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 11788 strings out of 494976
- 176993 string characters out of 6179137
- 302118 words of memory out of 5000000
- 14620 multiletter control sequences out of 15000+600000
+ 11786 strings out of 494976
+ 176966 string characters out of 6179137
+ 302319 words of memory out of 5000000
+ 14618 multiletter control sequences out of 15000+600000
  110829 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,10n,50p,1683b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1776,7 +1773,7 @@ mf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr1
 /type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on bthesis.pdf (26 pages, 1459443 bytes).
+Output written on bthesis.pdf (26 pages, 1459673 bytes).
 PDF statistics:
  727 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams

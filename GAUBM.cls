@@ -234,7 +234,7 @@
       prepared by\\[3mm]
       \textbf{\large \@author}\\[3mm]
       from \@WhereFrom\\[5mm]
-      at the \@Institute
+      at the \@Institute 
     \end{center}
     \vfill\null
     \noindent
@@ -268,7 +268,7 @@
         angefertigt von\\[3mm]
         \textbf{\large \@author}\\[3mm]
         aus \@WhereFrom\\[5mm]
-        am \@Institute{}
+        am \@Institute{} 
       \end{center}
       \vfill\null
       \noindent
@@ -282,6 +282,14 @@
         ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
           \dateselectlanguage{ngerman}\setdatebynumber{\the@countbegin}\datedate\ 
           bis \setdatebynumber{\the@countend}\datedate\end{minipage}\\&\\
+        \bfseries Modulnummer:~&
+        ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+          B.Phy.408:\\Spezialisierungspraktikum Kern- und Teilchenphysik
+          \end{minipage}\\&\\
+          \bfseries Ort, Datum :~&
+        ~~~\begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+           G\"ottingen, 29.03.2015
+          \end{minipage}\\&\\
 %        \if@ExtraSupervisor\bfseries Betreuer/in:&
 %        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
 %          \@ExtraSupervisor\end{minipage}\\&\\\fi
